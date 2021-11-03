@@ -1878,6 +1878,24 @@
     }
   },
   {
+    "coin": "CRV-AVX20",
+    "name": "crv_avx20",
+    "fname": "Curve DAO Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.04,
+    "decimals": 18,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": " 0x249848BeCA43aC405b8102Ec90Dd5F22CA513c06"
+      }
+    }
+  },
+  {
     "coin": "CRV-FTM20",
     "name": "crv_ftm20",
     "fname": "Curve DAO Token",
@@ -4568,42 +4586,6 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
-  },
-  {
-    "coin": "MTSLA-ERC20",
-    "name": "mtsla_erc20",
-    "fname": "Mirrored Tesla",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "decimals": 18,
-    "avg_blocktime": 0.25,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x21cA39943E91d704678F5D00b6616650F066fD63"
-      }
-    }
-  },
-  {
-    "coin": "MTSLA-BEP20",
-    "name": "mtsla_bep20",
-    "fname": "Mirrored Tesla",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "decimals": 18,
-    "avg_blocktime": 0.05,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0xF215A127A196e3988C09d052e16BcFD365Cd7AA3"
-      }
     }
   },
   {
