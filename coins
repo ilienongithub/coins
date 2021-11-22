@@ -6603,7 +6603,7 @@
     }
   },
   {
-    "coin": "SMTF",
+    "coin": "SMTF-OLD",
     "name": "smtfold_bep20",
     "fname": "SmartFi Old",
     "rpcport": 80,
