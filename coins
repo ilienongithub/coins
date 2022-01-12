@@ -6256,6 +6256,75 @@
     }
   },
   {
+    "coin": "PRCY",
+    "name": "prcy",
+    "fname": "PRivaCY Coin",
+    "rpcport": 59683,
+    "pubtype": 55,
+    "p2shtype": 61,
+    "wiftype": 28,
+    "txfee": 0,
+    "mm2": 1,
+    "required_confirmations": 5,
+    "avg_blocktime": 1,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
+    "coin": "PRCY-BEP20",
+    "name": "prcy_bep20",
+    "fname": "PRivaCY Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116"
+      }
+    }
+  },
+  {
+    "coin": "PRCY-ERC20",
+    "name": "prcy_erc20",
+    "fname": "PRivaCY Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "decimals": 8,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116"
+      }
+    }
+  },
+  {
+    "coin": "PRCY-PLG20",
+    "name": "prcy_plg20",
+    "fname": "PRivaCY Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 8,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116"
+      }
+    }
+  },
+  {
     "coin": "PRUX",
     "name": "prux",
     "fname": "PRUX",
@@ -7177,6 +7246,23 @@
       "protocol_data": {
         "platform": "MATIC",
         "contract_address": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a"
+      }
+    }
+  },
+  {
+    "coin": "SWAP-BEP20",
+    "name": "safeswap_bep20",
+    "fname": "SafeSwap",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xe56a473043EaAB7947c0a2408cEA623074500EE3"
       }
     }
   },
