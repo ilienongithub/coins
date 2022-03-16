@@ -4560,8 +4560,8 @@
     "overwintered": 1,
     "txfee": 1000,
     "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": true,
+    "required_confirmations": 4,
+    "requires_notarization": false,
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
