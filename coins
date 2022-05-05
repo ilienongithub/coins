@@ -3950,6 +3950,24 @@
     }
   },
   {
+    "coin": "GMT-BEP20",
+    "name": "gmt_bep20",
+    "fname": "STEPN",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 8,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1"
+      }
+    }
+  },
+  {
     "coin": "GNO-ERC20",
     "name": "gno_erc20",
     "fname": "Gnosis",
@@ -4092,6 +4110,24 @@
       "protocol_data": {
         "platform": "MATIC",
         "contract_address": "0x5fe2B58c013d7601147DcdD68C143A77499f5531"
+      }
+    }
+  },
+  {
+    "coin": "GST-BEP20",
+    "name": "gst_bep20",
+    "fname": "Green Satoshi Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 8,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x4a2c860cEC6471b9F5F5a336eB4F38bb21683c98"
       }
     }
   },
