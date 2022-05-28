@@ -5321,6 +5321,7 @@
     "decimals": 18,
     "avg_blocktime": 0.25,
     "required_confirmations": 3,
+    "wallet_only": true,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -5339,6 +5340,7 @@
     "decimals": 18,
     "avg_blocktime": 0.05,
     "required_confirmations": 3,
+    "wallet_only": true,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -5357,6 +5359,7 @@
     "decimals": 18,
     "avg_blocktime": 0.03,
     "required_confirmations": 3,
+    "wallet_only": true,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -5375,6 +5378,7 @@
     "decimals": 18,
     "avg_blocktime": 0.03,
     "required_confirmations": 3,
+    "wallet_only": true,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -9084,6 +9088,7 @@
     "decimals": 18,
     "avg_blocktime": 0.25,
     "required_confirmations": 3,
+    "wallet_only": true,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -9102,6 +9107,7 @@
     "decimals": 18,
     "avg_blocktime": 0.05,
     "required_confirmations": 3,
+    "wallet_only": true,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -9120,6 +9126,7 @@
     "decimals": 18,
     "avg_blocktime": 0.03,
     "required_confirmations": 3,
+    "wallet_only": true,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -9138,6 +9145,7 @@
     "decimals": 18,
     "avg_blocktime": 0.03,
     "required_confirmations": 3,
+    "wallet_only": true,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
