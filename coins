@@ -678,6 +678,7 @@
     "txfee": 10000,
     "confpath": "USERHOME/.axecore/axe.conf",
     "mm2": 1,
+    "check_utxo_maturity": true,
     "mature_confirmations": 101,
     "required_confirmations": 3,
     "avg_blocktime": 2.5,
