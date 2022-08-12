@@ -18,6 +18,42 @@
     }
   },
   {
+    "coin": "ILNF-PLG20",
+    "name": "ilnf_plg20",
+    "fname": "Ilien",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xaFf5Ed00c57b0E0c22123dbA28Cb6A5B26651Bbd"
+      }
+    }
+  },
+{
+    "coin": "ILNF-BEP20",
+    "name": "ilnf_bep20",
+    "fname": "Ilien",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x0D6e16c7066421607F8D334D6C02A48031fc2Eba"
+      }
+    }
+  },
+  {
     "coin": "1INCH-BEP20",
     "name": "1inch_bep20",
     "fname": "1inch",
@@ -524,17 +560,37 @@
     }
   },
   {
-    "coin": "ARRR",
-    "asset": "PIRATE",
-    "fname": "Pirate",
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
+    "coin":"ARRR",
+    "asset":"PIRATE",
+    "txversion":4,
+    "overwintered":1,
+    "mm2":1,
     "avg_blocktime": 1,
-    "required_confirmations": 1,
-    "protocol": {
-      "type": "ZHTLC"
-    }
+    "protocol":{
+      "type":"ZHTLC",
+      "protocol_data": {
+        "consensus_params": {
+          "overwinter_activation_height": 152855,
+          "sapling_activation_height": 152855,
+          "blossom_activation_height": null,
+          "heartwood_activation_height": null,
+          "canopy_activation_height": null,
+          "coin_type": 133,
+          "hrp_sapling_extended_spending_key": "secret-extended-key-main",
+          "hrp_sapling_extended_full_viewing_key": "zxviews",
+          "hrp_sapling_payment_address": "zs",
+          "b58_pubkey_address_prefix": [ 28, 184 ],
+          "b58_script_address_prefix": [ 28, 189 ]
+        },
+        "check_point_block": {
+          "height": 1900000,
+          "time": 1652512363,
+          "hash": "44797f3bb78323a7717007f1e289a3689e0b5b3433385dbd8e6f6a1700000000",
+          "sapling_tree": "01e40c26f4a28071535b95ae637d30a209531e92a33de0a649e51183771025fd0f016cdc51442fcb328d047a709dc0f41e0173953404711045b3ef3036d7fd4151271501d6c94c5ce6787826af809aaee83768c4b7d4f02c8dc2d24cf60ed5f127a5d730018a752ea9d9efb3e1ac0e6e705ac9f7f9863cfa8f612ad43802175338d8d7cc6000000001fc3542434eff03075ea5f0a64f1dfb2f042d281b1a057e9f6c765b533ce51219013ad9484b1e901e62b93e7538f913dcb27695380c3bc579e79f5cc900f28e596e0001431da5f01fe11d58300134caf5ac76e0b1b7486fd02425dd8871bca4afa94d4b01bb39de1c1d10a25ce0cc775bc74b6b0f056c28639e7c5b7651bb8460060085530000000001732ddf661e68c9e335599bb0b18b048d2f1c06b20eabd18239ad2f3cc45fa910014496bab5eedab205b5f2a206bd1db30c5bc8bc0c1914a102f87010f3431be21a0000010b5fd8e7610754075f936463780e85841f3ab8ca2978f9afdf7c2c250f16a75f01db56bc66eb1cd54ec6861e5cf24af2f4a17991556a52ca781007569e95b9842401c03877ecdd98378b321250640a1885604d675aaa50380e49da8cfa6ff7deaf15"
+        }
+      }
+    },
+    "required_confirmations": 3
   },
   {
     "coin": "ARRR-BEP20",
@@ -697,6 +753,7 @@
     "enable_spv_proof": true,
     "required_confirmations": 2,
     "requires_notarization": false,
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
@@ -1034,6 +1091,7 @@
       "network": "bitcoincash"
     },
     "mm2": 1,
+    "sign_message_prefix": "Bitcoin Signed Message:\n",
     "enable_spv_proof": true,
     "required_confirmations": 1,
     "avg_blocktime": 10,
@@ -1103,6 +1161,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "protocol": {
       "type": "UTXO"
     }
@@ -1115,6 +1174,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "enable_spv_proof": true,
     "required_confirmations": 2,
     "requires_notarization": true,
@@ -1316,6 +1376,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "enable_spv_proof": true,
     "required_confirmations": 2,
     "requires_notarization": true,
@@ -1411,6 +1472,7 @@
     "txfee": 0,
     "estimate_fee_mode": "ECONOMICAL",
     "mm2": 1,
+    "sign_message_prefix": "Bitcoin Signed Message:\n",
     "enable_spv_proof": true,
     "required_confirmations": 1,
     "avg_blocktime": 10,
@@ -1459,6 +1521,7 @@
   },
   {
     "coin": "BTCH",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "BTCH",
     "fname": "Bitcoin Hush",
     "rpcport": 8800,
@@ -1837,6 +1900,7 @@
   },
   {
     "coin": "CCL",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "CCL",
     "fname": "CoinCollect",
     "rpcport": 20849,
@@ -2038,6 +2102,7 @@
   },
   {
     "coin": "CHUNG",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "CHUNG",
     "fname": "Chunguscoin",
     "rpcport": 14701,
@@ -2108,6 +2173,7 @@
   },
   {
     "coin": "CLC",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "CLC",
     "fname": "Collider Coin",
     "rpcport": 31034,
@@ -2227,6 +2293,7 @@
   },
   {
     "coin": "COQUI",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "COQUICASH",
     "fname": "Coqui Cash",
     "rpcport": 19712,
@@ -2387,6 +2454,7 @@
   },
   {
     "coin": "CRYPTO",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "CRYPTO",
     "fname": "Crypto777",
     "rpcport": 8516,
@@ -2628,6 +2696,7 @@
   },
   {
     "coin": "DEX",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "DEX",
     "fname": "InstantDEX",
     "rpcport": 11890,
@@ -2953,6 +3022,7 @@
   },
   {
     "coin": "DP",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "DP",
     "fname": "DigitalPrice",
     "rpcport": 28388,
@@ -2988,6 +3058,7 @@
   },
   {
     "coin": "DUST",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "DRAGONFAIRY",
     "fname": "Dragonfairy",
     "rpcport": 62842,
@@ -3235,6 +3306,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
+    "sign_message_prefix": "Ethereum Signed Message:\n",
     "required_confirmations": 3,
     "avg_blocktime": 0.25,
     "protocol": {
@@ -3901,6 +3973,7 @@
   },
   {
     "coin": "GLEEC",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "GLEEC",
     "fname": "Gleec",
     "rpcport": 23226,
@@ -4190,6 +4263,7 @@
   },
   {
     "coin": "HODL",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "HODL",
     "fname": "HODL",
     "rpcport": 14431,
@@ -4381,6 +4455,7 @@
   },
   {
     "coin": "ILN",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "ILN",
     "fname": "Ilien",
     "rpcport": 12986,
@@ -4433,6 +4508,24 @@
         "contract_address": "0x2bAa79e7C13C302210436455925E68aD8fA687F0"
       }
     }
+  },
+  {
+  "coin": "ILSW-PLG20",
+  "name": "ilnsw_plg20",
+  "fname": "ilien swap",
+  "rpcport": 80,
+  "mm2": 1,
+  "chain_id": 137,
+  "decimals": 18,
+  "avg_blocktime": 0.03,
+  "required_confirmations": 3,
+  "protocol": {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x0483Ddbb510d22b206f2F3bDAC18528C952c4213"
+     }
+   }
   },
   {
     "coin": "INJ-BEP20",
@@ -4748,6 +4841,7 @@
   },
   {
     "coin": "JUMBLR",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "JUMBLR",
     "fname": "JUMBLR",
     "rpcport": 15106,
@@ -4787,6 +4881,7 @@
     "overwintered": 1,
     "txfee": 1000,
     "mm2": 1,
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "enable_spv_proof": true,
     "required_confirmations": 4,
     "requires_notarization": false,
@@ -4848,6 +4943,7 @@
   },
   {
     "coin": "KOIN",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "KOIN",
     "fname": "Koinon",
     "rpcport": 10702,
@@ -4882,6 +4978,7 @@
   },
   {
     "coin": "LABS",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "LABS",
     "fname": "KMD Labs",
     "rpcport": 40265,
@@ -5630,6 +5727,7 @@
   },
   {
     "coin": "MCL",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "MCL",
     "fname": "MarmaraCreditLoops",
     "rpcport": 33825,
@@ -5646,6 +5744,7 @@
   },
   {
     "coin": "MESH",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "MESH",
     "fname": "SuperMESH",
     "rpcport": 9455,
@@ -5662,6 +5761,7 @@
   },
   {
     "coin": "MGW",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "MGW",
     "fname": "MultiGateway",
     "rpcport": 12386,
@@ -5948,6 +6048,7 @@
   },
   {
     "coin": "MORTY",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "MORTY",
     "fname": "MORTY (TESTCOIN)",
     "rpcport": 16348,
@@ -6007,6 +6108,7 @@
   },
   {
     "coin": "MSHARK",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "MSHARK",
     "fname": "MiliShark",
     "rpcport": 8846,
@@ -6167,6 +6269,7 @@
   },
   {
     "coin": "NINJA",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "NINJA",
     "fname": "Ninja",
     "rpcport": 8427,
@@ -6486,6 +6589,7 @@
   },
   {
     "coin": "OOT",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "OOT",
     "fname": "Utrum",
     "rpcport": 12467,
@@ -6500,6 +6604,7 @@
   },
   {
     "coin": "PANGEA",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "PANGEA",
     "fname": "Pangea Poker",
     "rpcport": 14068,
@@ -6672,6 +6777,7 @@
   },
   {
     "coin": "PGT",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "PGT",
     "fname": "Pungo Token",
     "rpcport": 46705,
@@ -6741,6 +6847,7 @@
   },
   {
     "coin": "PIZZA",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "PIZZA",
     "fname": "PIZZA (TESTCOIN)",
     "rpcport": 11116,
@@ -7000,6 +7107,7 @@
   },
   {
     "coin": "PTX",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "PTX",
     "fname": "PatentTX",
     "rpcport": 61939,
@@ -7217,6 +7325,7 @@
     "txfee": 0,
     "dust": 72800,
     "mm2": 1,
+    "sign_message_prefix": "Qtum Signed Message:\n",
     "force_min_relay_fee": true,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
@@ -7378,6 +7487,7 @@
   },
   {
     "coin": "REVS",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "REVS",
     "fname": "REVS",
     "rpcport": 10196,
@@ -7795,6 +7905,7 @@
   },
   {
     "coin": "SOULJA",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "SOULJA",
     "fname": "SouljaCoin",
     "rpcport": 53604,
@@ -7811,6 +7922,7 @@
   },
   {
     "coin": "SPACE",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "SPACE",
     "fname": "Spacecoin",
     "rpcport": 35593,
@@ -7827,6 +7939,7 @@
   },
   {
     "coin": "CIPHS",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "CIPHS",
     "fname": "Ciphscoin",
     "rpcport": 50601,
@@ -7879,6 +7992,7 @@
   },
   {
     "coin": "SUPERNET",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "SUPERNET",
     "fname": "SUPERNET",
     "rpcport": 11341,
@@ -8272,6 +8386,7 @@
   },
   {
     "coin": "THC",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "THC",
     "fname": "HempCoin",
     "rpcport": 36790,
@@ -8306,6 +8421,7 @@
   },
   {
     "coin": "TKL",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "TOKEL",
     "fname": "Tokel",
     "rpcport": 29405,
@@ -9353,6 +9469,7 @@
   {
     "coin": "VOTE2022",
     "asset": "VOTE2022",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "rpcport": 33898,
     "mm2": 1,
     "enable_spv_proof": true,
@@ -9387,6 +9504,7 @@
   },
   {
     "coin": "VRSC",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "VRSC",
     "fname": "VerusCoin",
     "rpcport": 27486,
@@ -9402,6 +9520,7 @@
   },
   {
     "coin": "GRMS",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "GRMS",
     "fname": "GRMS",
     "rpcport": 21687,
@@ -9509,6 +9628,7 @@
   },
   {
     "coin": "WLC",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "WLC21",
     "fname": "Wireless Coin",
     "rpcport": 38808,
@@ -9525,6 +9645,7 @@
   },
   {
     "coin": "WSB",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "WSB",
     "fname": "WallStreetBets",
     "rpcport": 52043,
@@ -10109,6 +10230,7 @@
   },
   {
     "coin": "ZILLA",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "ZILLA",
     "fname": "ChainZilla",
     "rpcport": 10041,
@@ -11401,6 +11523,7 @@
   },
   {
     "coin": "GMS",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "GMS",
     "fname": "GMSmining",
     "rpcport": 58911,
@@ -11415,16 +11538,31 @@
     }
   },
   {
-    "coin": "ZOMBIE",
-    "asset": "ZOMBIE",
-    "fname": "ZOMBIE (TESTCOIN)",
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "protocol": {
-      "type": "ZHTLC"
+    "coin":"ZOMBIE",
+    "asset":"ZOMBIE",
+    "txversion":4,
+    "overwintered":1,
+    "avg_blocktime": 1,
+    "mm2":1,
+    "protocol":{
+      "type":"ZHTLC",
+      "protocol_data": {
+        "consensus_params": {
+          "overwinter_activation_height": 0,
+          "sapling_activation_height": 1,
+          "blossom_activation_height": null,
+          "heartwood_activation_height": null,
+          "canopy_activation_height": null,
+          "coin_type": 133,
+          "hrp_sapling_extended_spending_key": "secret-extended-key-main",
+          "hrp_sapling_extended_full_viewing_key": "zxviews",
+          "hrp_sapling_payment_address": "zs",
+          "b58_pubkey_address_prefix": [ 28, 184 ],
+          "b58_script_address_prefix": [ 28, 189 ]
+        }
+      }
     },
-    "required_confirmations": 1
+    "required_confirmations": 3
   },
   {
     "coin": "ZINU-BEP20",
@@ -11495,5 +11633,5 @@
         "contract_address": "0xD7380b10bF3886B34Ab3422DEa42E408850375CA"
       }
     }
- }
+  }
 ]
