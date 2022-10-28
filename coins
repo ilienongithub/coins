@@ -2,7 +2,7 @@
   {
     "coin": "1INCH-AVX20",
     "name": "1inch_avx20",
-    "fname": "1inch",
+    "fname": "1Inch",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 43114,
@@ -20,7 +20,7 @@
   {
     "coin": "ILNF-PLG20",
     "name": "ilnf_plg20",
-    "fname": "Ilien",
+    "fname": "Ilien Fuel",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 137,
@@ -35,10 +35,10 @@
       }
     }
   },
-{
+  {
     "coin": "ILNF-BEP20",
     "name": "ilnf_bep20",
-    "fname": "Ilien",
+    "fname": "Ilien Fuel",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
@@ -56,7 +56,7 @@
   {
     "coin": "1INCH-BEP20",
     "name": "1inch_bep20",
-    "fname": "1inch",
+    "fname": "1Inch",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
@@ -73,7 +73,7 @@
   {
     "coin": "1INCH-ERC20",
     "name": "1inch_erc20",
-    "fname": "1inch",
+    "fname": "1Inch",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -91,7 +91,7 @@
   {
     "coin": "1INCH-HRC20",
     "name": "1inch_hrc20",
-    "fname": "1inch",
+    "fname": "1Inch",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1666600000,
@@ -109,7 +109,7 @@
   {
     "coin": "1INCH-KRC20",
     "name": "1inch_krc20",
-    "fname": "1inch",
+    "fname": "1Inch",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 321,
@@ -127,7 +127,7 @@
   {
     "coin": "1INCH-PLG20",
     "name": "1inch_plg20",
-    "fname": "1inch",
+    "fname": "1Inch",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 137,
@@ -145,7 +145,7 @@
   {
     "coin": "PGX-PLG20",
     "name": "pegaxy_stone",
-    "fname": "pegaxystone",
+    "fname": "Pegaxy Stone",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 137,
@@ -163,7 +163,7 @@
   {
     "coin": "AAVE-AVX20",
     "name": "aave_avx20",
-    "fname": "Aave",
+    "fname": "AAVE",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 43114,
@@ -181,7 +181,7 @@
   {
     "coin": "AAVE-BEP20",
     "name": "aave_bep20",
-    "fname": "Aave",
+    "fname": "AAVE",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
@@ -198,7 +198,7 @@
   {
     "coin": "AAVE-ERC20",
     "name": "aave_erc20",
-    "fname": "Aave",
+    "fname": "AAVE",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -216,7 +216,7 @@
   {
     "coin": "AAVE-FTM20",
     "name": "aave_ftm20",
-    "fname": "Aave",
+    "fname": "AAVE",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 250,
@@ -234,7 +234,7 @@
   {
     "coin": "AAVE-HCO20",
     "name": "aave_hco20",
-    "fname": "Aave",
+    "fname": "AAVE",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 128,
@@ -252,7 +252,7 @@
   {
     "coin": "AAVE-HRC20",
     "name": "aave_hrc20",
-    "fname": "Aave",
+    "fname": "AAVE",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1666600000,
@@ -270,7 +270,7 @@
   {
     "coin": "AAVE-KRC20",
     "name": "aave_krc20",
-    "fname": "Aave",
+    "fname": "AAVE",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 321,
@@ -288,7 +288,7 @@
   {
     "coin": "AAVE-PLG20",
     "name": "aave_plg20",
-    "fname": "Aave",
+    "fname": "AAVE",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 137,
@@ -323,7 +323,7 @@
   {
     "coin": "ABY",
     "name": "artbyte",
-    "fname": "Artbyte",
+    "fname": "ArtByte",
     "isPoS": 1,
     "rpcport": 9262,
     "pubtype": 28,
@@ -359,7 +359,8 @@
   {
     "coin": "ADEXBSCT",
     "name": "adex_bsc_testnet",
-    "fname": "adex",
+    "is_testnet": true,
+    "fname": "ADEX BSC Testnet",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 97,
@@ -374,7 +375,7 @@
   {
     "coin": "ADEXBSC",
     "name": "adex_bsc",
-    "fname": "adex",
+    "fname": "ADEX BSC",
     "rpcport": 80,
     "mm2": 1,
     "protocol": {
@@ -614,14 +615,15 @@
     }
   },
   {
-    "coin":"ARRR",
-    "asset":"PIRATE",
-    "txversion":4,
-    "overwintered":1,
-    "mm2":1,
+    "coin": "ARRR",
+    "asset": "PIRATE",
+    "fname": "Pirate",
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
     "avg_blocktime": 1,
-    "protocol":{
-      "type":"ZHTLC",
+    "protocol": {
+      "type": "ZHTLC",
       "protocol_data": {
         "consensus_params": {
           "overwinter_activation_height": 152855,
@@ -633,8 +635,14 @@
           "hrp_sapling_extended_spending_key": "secret-extended-key-main",
           "hrp_sapling_extended_full_viewing_key": "zxviews",
           "hrp_sapling_payment_address": "zs",
-          "b58_pubkey_address_prefix": [ 28, 184 ],
-          "b58_script_address_prefix": [ 28, 189 ]
+          "b58_pubkey_address_prefix": [
+            28,
+            184
+          ],
+          "b58_script_address_prefix": [
+            28,
+            189
+          ]
         },
         "check_point_block": {
           "height": 1900000,
@@ -738,7 +746,8 @@
   {
     "coin": "AVAXT",
     "name": "avaxt",
-    "fname": "Avax Testnet",
+    "fname": "Avalanche Testnet",
+    "is_testnet": true,
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 43113,
@@ -751,7 +760,7 @@
   {
     "coin": "AVAX",
     "name": "avax",
-    "fname": "Avax",
+    "fname": "Avalanche",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 43114,
@@ -829,22 +838,6 @@
     "mature_confirmations": 101,
     "required_confirmations": 3,
     "avg_blocktime": 2.5,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
-    "coin": "AXO",
-    "asset": "AXO",
-    "fname": "AXO",
-    "rpcport": 12927,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": false,
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
     }
@@ -1185,47 +1178,53 @@
     "required_confirmations": 1,
     "avg_blocktime": 10,
     "protocol": {
-        "type": "BCH",
-        "protocol_data": {
-            "slp_prefix": "simpleledger"
-        }
+      "type": "BCH",
+      "protocol_data": {
+        "slp_prefix": "simpleledger"
+      }
     }
   },
   {
-    "coin":"USDT-SLP",
-    "protocol":{
-      "type":"SLPTOKEN",
-      "protocol_data":{
-        "decimals":8,
-        "token_id":"9fc89d6b7d5be2eac0b3787c5b8236bca5de641b5bafafc8f450727b63615c11",
-        "platform":"BCH",
-        "required_confirmations": 1
+    "coin": "USDT-SLP",
+    "fname": "Tether",
+    "protocol": {
+      "type": "SLPTOKEN",
+      "protocol_data": {
+        "decimals": 8,
+        "token_id": "9fc89d6b7d5be2eac0b3787c5b8236bca5de641b5bafafc8f450727b63615c11",
+        "platform": "BCH",
+        "required_confirmations": 1,
+        "slp_prefix": "simpleledger"
       }
     },
     "mm2": 1
   },
   {
-    "coin":"HONK",
-    "protocol":{
-      "type":"SLPTOKEN",
-      "protocol_data":{
-        "decimals":0,
-        "token_id":"7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
-        "platform":"BCH",
-        "required_confirmations": 1
+    "coin": "HONK",
+    "fname": "Honk Honk",
+    "protocol": {
+      "type": "SLPTOKEN",
+      "protocol_data": {
+        "decimals": 0,
+        "token_id": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
+        "platform": "BCH",
+        "required_confirmations": 1,
+        "slp_prefix": "simpleledger"
       }
     },
     "mm2": 1
   },
   {
-    "coin":"ASLP",
-    "protocol":{
-      "type":"SLPTOKEN",
-      "protocol_data":{
-        "decimals":2,
-        "token_id":"926894cbf50269b15c97559b9acfc1bd88cd5f20703313ce0ea0683ecdb40911",
-        "platform":"BCH",
-        "required_confirmations": 1
+    "coin": "ASLP",
+    "fname": "AtomicSLP",
+    "protocol": {
+      "type": "SLPTOKEN",
+      "protocol_data": {
+        "decimals": 2,
+        "token_id": "926894cbf50269b15c97559b9acfc1bd88cd5f20703313ce0ea0683ecdb40911",
+        "platform": "BCH",
+        "required_confirmations": 1,
+        "slp_prefix": "simpleledger"
       }
     },
     "mm2": 1
@@ -1285,19 +1284,6 @@
     }
   },
   {
-    "coin": "BEER",
-    "asset": "BEER",
-    "fname": "BEER (TESTCOIN)",
-    "rpcport": 8923,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "BET",
     "asset": "BET",
     "fname": "BET",
@@ -1332,7 +1318,7 @@
   {
     "coin": "BLK",
     "name": "blackmore",
-    "fname": "Blackcoin",
+    "fname": "BlackCoin",
     "isPoS": 1,
     "rpcport": 15715,
     "pubtype": 25,
@@ -1353,7 +1339,7 @@
   {
     "coin": "BLK-BEP20",
     "name": "blk_bep20",
-    "fname": "Blackcoin",
+    "fname": "BlackCoin",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
@@ -1371,7 +1357,7 @@
   {
     "coin": "tBLK",
     "name": "blackmore",
-    "fname": "Blackcoin testnet",
+    "fname": "BlackCoin Testnet",
     "isPoS": 1,
     "rpcport": 25715,
     "pubtype": 111,
@@ -1380,6 +1366,7 @@
     "txfee": 100000,
     "segwit": true,
     "mm2": 1,
+    "is_testnet": true,
     "required_confirmations": 5,
     "check_utxo_maturity": true,
     "mature_confirmations": 10,
@@ -1426,6 +1413,7 @@
     "avg_blocktime": 0.10,
     "rpcport": 80,
     "mm2": 1,
+    "alias_ticker": "BTC",
     "chain_id": 30,
     "required_confirmations": 1,
     "protocol": {
@@ -1435,11 +1423,12 @@
   {
     "coin": "BNBT",
     "name": "binancesmartchaintest",
-    "fname": "Ethereum",
+    "fname": "Binance Coin Testnet",
     "avg_blocktime": 0.25,
     "rpcport": 80,
     "chain_id": 97,
     "mm2": 1,
+    "is_testnet": true,
     "required_confirmations": 3,
     "protocol": {
       "type": "ETH"
@@ -1615,7 +1604,9 @@
     "txfee": 200000,
     "segwit": true,
     "bech32_hrp": "gb",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "BSTY",
     "mm2": 1,
     "required_confirmations": 1,
@@ -1649,7 +1640,9 @@
     "avg_blocktime": 10,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/0'",
+    "trezor_coin": "Bitcoin"
   },
   {
     "coin": "BTC-segwit",
@@ -1661,7 +1654,9 @@
     "wiftype": 128,
     "segwit": true,
     "bech32_hrp": "bc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "BTC",
     "txfee": 0,
     "estimate_fee_mode": "ECONOMICAL",
@@ -1694,22 +1689,6 @@
         "platform": "BNB",
         "contract_address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c"
       }
-    }
-  },
-  {
-    "coin": "BTCH",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "BTCH",
-    "fname": "Bitcoin Hush",
-    "rpcport": 8800,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": false,
-    "avg_blocktime": 1,
-    "protocol": {
-      "type": "UTXO"
     }
   },
   {
@@ -1777,7 +1756,9 @@
     "wiftype": 128,
     "segwit": true,
     "bech32_hrp": "web",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "BTE",
     "txfee": 20000,
     "mm2": 1,
@@ -1886,7 +1867,9 @@
     "wiftype": 128,
     "segwit": true,
     "bech32_hrp": "btx",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "BTX",
     "txfee": 20000,
     "mm2": 1,
@@ -2138,7 +2121,9 @@
     "dust": 54600,
     "segwit": true,
     "bech32_hrp": "cdn",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "CDN",
     "mm2": 1,
     "required_confirmations": 2,
@@ -2306,22 +2291,6 @@
         "platform": "MATIC",
         "contract_address": "0x67Ce67ec4fCd4aCa0Fcb738dD080b2a21ff69D75"
       }
-    }
-  },
-  {
-    "coin": "CHUNG",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "CHUNG",
-    "fname": "Chunguscoin",
-    "rpcport": 14701,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 5,
-    "requires_notarization": false,
-    "avg_blocktime": 1,
-    "protocol": {
-      "type": "UTXO"
     }
   },
   {
@@ -2495,22 +2464,6 @@
         "platform": "MATIC",
         "contract_address": "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c"
       }
-    }
-  },
-  {
-    "coin": "COQUI",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "COQUICASH",
-    "fname": "Coqui Cash",
-    "rpcport": 19712,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": false,
-    "avg_blocktime": 1,
-    "protocol": {
-      "type": "UTXO"
     }
   },
   {
@@ -2847,7 +2800,9 @@
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/5'",
+    "trezor_coin": "Dash"
   },
   {
     "coin": "DDD",
@@ -2863,21 +2818,6 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0x9F5F3CFD7a32700C93F971637407ff17b91c7342"
-      }
-    }
-  },
-  {
-    "coin": "DEC8",
-    "name": "DEC8",
-    "fname": "DEC8 (TESTCOIN)",
-    "mm2": 1,
-    "chain_id": 1,
-    "rpcport": 80,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x3aB100442484Dc2414Aa75B2952A0a6f03f8aBFd"
       }
     }
   },
@@ -2902,7 +2842,7 @@
     "coin": "DEX",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "DEX",
-    "fname": "InstantDEX",
+    "fname": "DEX",
     "rpcport": 11890,
     "txversion": 4,
     "overwintered": 1,
@@ -2917,7 +2857,7 @@
   {
     "coin": "DGB",
     "name": "digibyte",
-    "fname": "Digibyte",
+    "fname": "DigiByte",
     "rpcport": 14022,
     "pubtype": 30,
     "p2shtype": 63,
@@ -2930,7 +2870,9 @@
     "avg_blocktime": 0.25,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/20'",
+    "trezor_coin": "DigiByte"
   },
   {
     "coin": "DGB-segwit",
@@ -2943,7 +2885,9 @@
     "txfee": 100000,
     "segwit": true,
     "bech32_hrp": "dgb",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "DGB",
     "mm2": 1,
     "required_confirmations": 7,
@@ -3007,7 +2951,7 @@
   {
     "coin": "DIMI",
     "name": "diminutivecoin",
-    "fname": "DiminutiveCoin",
+    "fname": "Diminutive Coin",
     "rpcport": 49122,
     "pubtype": 32,
     "p2shtype": 30,
@@ -3026,7 +2970,7 @@
   {
     "coin": "DIMI-BEP20",
     "name": "dimi_bep20",
-    "fname": "DiminutiveCoin",
+    "fname": "Diminutive Coin",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
@@ -3043,7 +2987,7 @@
   {
     "coin": "DIMI-QRC20",
     "name": "dimi_qrc20",
-    "fname": "DiminutiveCoin",
+    "fname": "Diminutive Coin",
     "rpcport": 3889,
     "pubtype": 58,
     "p2shtype": 50,
@@ -3132,7 +3076,9 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/3'",
+    "trezor_coin": "Dogecoin"
   },
   {
     "coin": "DOGE-BEP20",
@@ -3171,7 +3117,7 @@
   {
     "coin": "DOGGY-BEP20",
     "name": "doggy_bep20",
-    "fname": "DOGGY",
+    "fname": "Doggy",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
@@ -3253,7 +3199,7 @@
     "avg_blocktime": 10,
     "protocol": {
       "type": "UTXO"
-     }
+    }
   },
   {
     "coin": "DUST",
@@ -3328,7 +3274,7 @@
   {
     "coin": "EILN-ERC20",
     "name": "eiln_erc20",
-    "fname": "Ilien",
+    "fname": "eIlien",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -3514,7 +3460,7 @@
   {
     "coin": "ETH-AVX20",
     "name": "ethereum avalanche",
-    "fname": "Ethereum Avalanche",
+    "fname": "Ethereum",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 43114,
@@ -3532,7 +3478,7 @@
   {
     "coin": "ETH-ARB20",
     "name": "ethereum arbitrum",
-    "fname": "Ethereum Arbitrum",
+    "fname": "Arbitrum Ethereum",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 42161,
@@ -3835,7 +3781,9 @@
     "wiftype": 164,
     "segwit": true,
     "bech32_hrp": "fc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "FJC",
     "txfee": 0,
     "mm2": 1,
@@ -3990,7 +3938,9 @@
     "txfee": 1000000,
     "segwit": true,
     "bech32_hrp": "fc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "FTC",
     "mm2": 1,
     "required_confirmations": 5,
@@ -4003,6 +3953,7 @@
     "coin": "FTMT",
     "name": "ftmt",
     "fname": "Fantom Testnet",
+    "is_testnet": true,
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 4002,
@@ -4139,44 +4090,6 @@
     "required_confirmations": 2,
     "requires_notarization": true,
     "avg_blocktime": 1,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
-    "coin": "GLEEC-OLD",
-    "name": "gleecbtc",
-    "fname": "Gleec",
-    "rpcport": 8332,
-    "pubtype": 35,
-    "p2shtype": 38,
-    "wiftype": 65,
-    "segwit": true,
-    "bech32_hrp": "fg",
-    "txfee": 0,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "avg_blocktime": 5,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
-    "coin": "GLEEC-OLD-segwit",
-    "name": "gleecbtc",
-    "fname": "Gleec",
-    "rpcport": 8332,
-    "pubtype": 35,
-    "p2shtype": 38,
-    "wiftype": 65,
-    "segwit": true,
-    "bech32_hrp": "fg",
-    "address_format":{"format":"segwit"},
-    "orderbook_ticker": "GLEEC-OLD",
-    "txfee": 0,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "avg_blocktime": 5,
     "protocol": {
       "type": "UTXO"
     }
@@ -4335,7 +4248,9 @@
     "txfee": 0,
     "segwit": true,
     "bech32_hrp": "bc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "GRS",
     "mm2": 1,
     "required_confirmations": 5,
@@ -4717,22 +4632,22 @@
     }
   },
   {
-  "coin": "ILNSW-PLG20",
-  "name": "ilnsw_plg20",
-  "fname": "ilien Swap",
-  "rpcport": 80,
-  "mm2": 1,
-  "chain_id": 137,
-  "decimals": 18,
-  "avg_blocktime": 0.03,
-  "required_confirmations": 3,
-  "protocol": {
-    "type": "ERC20",
-    "protocol_data": {
-      "platform": "MATIC",
-      "contract_address": "0x0483Ddbb510d22b206f2F3bDAC18528C952c4213"
-     }
-   }
+    "coin": "ILNSW-PLG20",
+    "name": "ilnsw_plg20",
+    "fname": "Ilien Swap",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x0483Ddbb510d22b206f2F3bDAC18528C952c4213"
+      }
+    }
   },
   {
     "coin": "INJ-BEP20",
@@ -5082,7 +4997,9 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
   },
   {
     "coin": "KMD-BEP20",
@@ -5249,7 +5166,9 @@
     "txfee": 10000,
     "segwit": true,
     "bech32_hrp": "lbc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "LBC",
     "mm2": 1,
     "required_confirmations": 3,
@@ -5293,7 +5212,9 @@
     "txfee": 20000,
     "segwit": true,
     "bech32_hrp": "lcc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "LCC",
     "mm2": 1,
     "required_confirmations": 4,
@@ -5619,7 +5540,9 @@
     "txfee": 0,
     "segwit": true,
     "bech32_hrp": "wc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "WCN",
     "mm2": 1,
     "required_confirmations": 2,
@@ -5698,7 +5621,9 @@
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/2'",
+    "trezor_coin": "Litecoin"
   },
   {
     "coin": "LTC-segwit",
@@ -5712,7 +5637,9 @@
     "dust": 5460,
     "segwit": true,
     "bech32_hrp": "ltc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "LTC",
     "mm2": 1,
     "required_confirmations": 2,
@@ -5754,89 +5681,15 @@
     "txfee": 20000,
     "segwit": true,
     "bech32_hrp": "ltfn",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "LTFN",
     "mm2": 1,
     "required_confirmations": 3,
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
-    }
-  },
-  {
-    "coin": "LUNA-ERC20",
-    "name": "luna_erc20",
-    "fname": "Terra",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "decimals": 18,
-    "avg_blocktime": 0.25,
-    "required_confirmations": 3,
-    "wallet_only": true,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0xd2877702675e6cEb975b4A1dFf9fb7BAF4C91ea9"
-      }
-    }
-  },
-  {
-    "coin": "LUNA-BEP20",
-    "name": "luna_bep20",
-    "fname": "Terra",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "decimals": 18,
-    "avg_blocktime": 0.05,
-    "required_confirmations": 3,
-    "wallet_only": true,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0xECCF35F941Ab67FfcAA9A1265C2fF88865caA005"
-      }
-    }
-  },
-  {
-    "coin": "LUNA-HRC20",
-    "name": "luna_hrc20",
-    "fname": "Terra",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1666600000,
-    "decimals": 18,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 3,
-    "wallet_only": true,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ONE",
-        "contract_address": "0x95CE547D730519A90dEF30d647F37D9E5359B6Ae"
-      }
-    }
-  },
-  {
-    "coin": "LUNA-PLG20",
-    "name": "luna_plg20",
-    "fname": "Terra",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 18,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 3,
-    "wallet_only": true,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0x24834BBEc7E39ef42f4a75EAF8E5B6486d3F0e57"
-      }
     }
   },
   {
@@ -5947,7 +5800,8 @@
   {
     "coin": "MATICTEST",
     "name": "matic testnet",
-    "fname": "Matic testnet",
+    "fname": "Matic Testnet",
+    "is_testnet": true,
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 80001,
@@ -6063,7 +5917,7 @@
     "coin": "MCL",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "MCL",
-    "fname": "MarmaraCreditLoops",
+    "fname": "Marmara Credit Loops",
     "rpcport": 33825,
     "txversion": 4,
     "overwintered": 1,
@@ -6110,7 +5964,7 @@
   {
     "coin": "MINDS",
     "name": "minds",
-    "fname": "minds",
+    "fname": "Minds",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -6140,7 +5994,7 @@
     "protocol": {
       "type": "UTXO"
     }
-  },  
+  },
   {
     "coin": "MIR-ERC20",
     "name": "mir_erc20",
@@ -6368,7 +6222,9 @@
     "dust": 100000,
     "segwit": true,
     "bech32_hrp": "mona",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "MONA",
     "mm2": 1,
     "required_confirmations": 5,
@@ -6381,7 +6237,8 @@
     "coin": "MORTY",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "MORTY",
-    "fname": "MORTY (TESTCOIN)",
+    "fname": "Morty",
+    "is_testnet": true,
     "rpcport": 16348,
     "txversion": 4,
     "overwintered": 1,
@@ -6391,7 +6248,9 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
   },
   {
     "coin": "MOVI",
@@ -6424,17 +6283,17 @@
     }
   },
   {
-      "coin": "GLMR",
-      "name": "moonbeam",
-      "fname": "Moonbeam",
-      "rpcport": 80,
-      "mm2": 1,
-      "chain_id": 1284,
-      "required_confirmations": 3,
-      "avg_blocktime": 0.25,
-      "protocol": {
-        "type": "ETH"
-      }
+    "coin": "GLMR",
+    "name": "moonbeam",
+    "fname": "Moonbeam",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1284,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.25,
+    "protocol": {
+      "type": "ETH"
+    }
   },
   {
     "coin": "MSHARK",
@@ -6658,7 +6517,9 @@
     "avg_blocktime": 10,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/7'",
+    "trezor_coin": "Namecoin"
   },
   {
     "coin": "NMC-segwit",
@@ -6671,7 +6532,9 @@
     "txfee": 0,
     "segwit": true,
     "bech32_hrp": "nc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "NMC",
     "mm2": 1,
     "required_confirmations": 2,
@@ -6797,7 +6660,7 @@
   {
     "coin": "NYAN",
     "name": "nyancoin",
-    "fname": "NYAN",
+    "fname": "Nyancoin",
     "rpcport": 33700,
     "pubtype": 45,
     "p2shtype": 5,
@@ -6807,7 +6670,7 @@
     "bech32_hrp": "ny",
     "mm2": 1,
     "required_confirmations": 10,
-    "avg_blocktime":1,
+    "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
     }
@@ -6928,20 +6791,6 @@
         "platform": "BNB",
         "contract_address": "0xFd7B3A77848f1C2D67E05E54d78d174a0C850335"
       }
-    }
-  },
-  {
-    "coin": "OOT",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "OOT",
-    "fname": "Utrum",
-    "rpcport": 12467,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": false,
-    "avg_blocktime": 1,
-    "protocol": {
-      "type": "UTXO"
     }
   },
   {
@@ -7159,7 +7008,9 @@
     "wiftype": 128,
     "segwit": true,
     "bech32_hrp": "bc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "PIC",
     "txfee": 0,
     "mm2": 1,
@@ -7181,19 +7032,6 @@
     "mm2": 1,
     "required_confirmations": 5,
     "avg_blocktime": 1,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
-    "coin": "PIZZA",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "PIZZA",
-    "fname": "PIZZA (TESTCOIN)",
-    "rpcport": 11116,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
     "protocol": {
       "type": "UTXO"
     }
@@ -7233,7 +7071,9 @@
     "dust": 1000000,
     "segwit": true,
     "bech32_hrp": "pn",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "PND",
     "mm2": 1,
     "required_confirmations": 1,
@@ -7313,7 +7153,9 @@
     "dust": 10000,
     "segwit": true,
     "bech32_hrp": "pc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "PPC",
     "mm2": 1,
     "required_confirmations": 1,
@@ -7440,7 +7282,7 @@
     "bech32_hrp": "pr",
     "mm2": 1,
     "required_confirmations": 9,
-    "avg_blocktime":0.15,
+    "avg_blocktime": 0.15,
     "protocol": {
       "type": "UTXO"
     }
@@ -7652,12 +7494,14 @@
   },
   {
     "coin": "QRC20",
+    "fname": "QRC20",
     "pubtype": 120,
     "p2shtype": 50,
     "wiftype": 128,
     "segwit": false,
     "txfee": 400000,
     "mm2": 1,
+    "is_testnet": true,
     "mature_confirmations": 2000,
     "required_confirmations": 1,
     "avg_blocktime": 0.53,
@@ -7701,7 +7545,9 @@
     "wiftype": 128,
     "segwit": true,
     "bech32_hrp": "qc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "QTUM",
     "txfee": 0,
     "dust": 72800,
@@ -7734,7 +7580,8 @@
   {
     "coin": "tQTUM",
     "name": "qtumtest",
-    "fname": "Qtum test",
+    "fname": "QTUM Testnet",
+    "is_testnet": true,
     "rpcport": 13889,
     "pubtype": 120,
     "p2shtype": 110,
@@ -7753,17 +7600,20 @@
   {
     "coin": "tQTUM-segwit",
     "name": "qtumtest",
-    "fname": "Qtum test",
+    "fname": "QTUM Testnet",
     "rpcport": 13889,
     "pubtype": 120,
     "p2shtype": 110,
     "wiftype": 239,
     "segwit": true,
     "bech32_hrp": "tq",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "tQTUM",
     "txfee": 400000,
     "mm2": 1,
+    "is_testnet": true,
     "required_confirmations": 1,
     "mature_confirmations": 2000,
     "avg_blocktime": 0.53,
@@ -7903,7 +7753,9 @@
     "wiftype": 128,
     "segwit": true,
     "bech32_hrp": "ric",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "RIC",
     "txfee": 0,
     "mm2": 1,
@@ -7916,17 +7768,21 @@
   {
     "coin": "RICK",
     "asset": "RICK",
-    "fname": "RICK (TESTCOIN)",
+    "fname": "Rick",
     "rpcport": 25435,
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "is_testnet": true,
     "required_confirmations": 1,
     "requires_notarization": false,
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
   },
   {
     "coin": "RLC-ERC20",
@@ -8002,7 +7858,7 @@
   {
     "coin": "RVN",
     "name": "raven",
-    "fname": "Raven",
+    "fname": "RavenCoin",
     "rpcport": 8766,
     "pubtype": 60,
     "p2shtype": 122,
@@ -8364,7 +8220,7 @@
     "coin": "SUPERNET",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "SUPERNET",
-    "fname": "SUPERNET",
+    "fname": "Supernet",
     "rpcport": 11341,
     "txversion": 4,
     "overwintered": 1,
@@ -8577,6 +8433,7 @@
     "fname": "SmartBCH",
     "rpcport": 80,
     "mm2": 1,
+    "alias_ticker": "BCH",
     "chain_id": 10000,
     "required_confirmations": 3,
     "avg_blocktime": 0.1,
@@ -8615,7 +8472,9 @@
     "dust": 1820,
     "segwit": true,
     "bech32_hrp": "sys",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "SYS",
     "required_confirmations": 5,
     "avg_blocktime": 1,
@@ -8660,9 +8519,9 @@
     }
   },
   {
-    "coin": "tBTC-TEST",
+    "coin": "tBTC",
     "name": "tbitcoin",
-    "fname": "tBitcoin",
+    "fname": "BTC Testnet",
     "rpcport": 18332,
     "pubtype": 111,
     "p2shtype": 196,
@@ -8672,13 +8531,14 @@
     "txfee": 0,
     "estimate_fee_mode": "ECONOMICAL",
     "mm2": 1,
+    "is_testnet": true,
     "required_confirmations": 0,
     "protocol": {
       "type": "UTXO"
     }
   },
   {
-    "coin": "tBTC-TEST-segwit",
+    "coin": "tBTC-segwit",
     "name": "tbitcoin",
     "fname": "tBitcoin",
     "rpcport": 18332,
@@ -8687,11 +8547,14 @@
     "wiftype": 239,
     "segwit": true,
     "bech32_hrp": "tb",
-    "address_format":{"format":"segwit"},
-    "orderbook_ticker": "tBTC-TEST",
+    "address_format": {
+      "format": "segwit"
+    },
+    "orderbook_ticker": "tBTC",
     "txfee": 0,
     "estimate_fee_mode": "ECONOMICAL",
     "mm2": 1,
+    "is_testnet": true,
     "required_confirmations": 0,
     "protocol": {
       "type": "UTXO"
@@ -9402,39 +9265,6 @@
     }
   },
   {
-    "coin": "USDI",
-    "name": "usdi",
-    "fname": "USD Inflation Coin",
-    "isPoS": 1,
-    "rpcport": 7333,
-    "pubtype": 68,
-    "p2shtype": 130,
-    "wiftype": 172,
-    "txfee": 10000,
-    "dust": 10000,
-    "segwit": false,
-    "mm2": 1,
-    "required_confirmations": 5,
-    "mature_confirmations": 240,
-    "avg_blocktime": 1.1,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
-            "coin":"USDT-SLP",
-            "protocol":{
-                "type":"SLPTOKEN",
-                "protocol_data":{
-                    "decimals":8,
-                    "token_id":"9fc89d6b7d5be2eac0b3787c5b8236bca5de641b5bafafc8f450727b63615c11",
-                    "platform":"BCH",
-                    "required_confirmations": 1
-                }
-            },
-            "mm2": 1
-  },
-  {
     "coin": "USDT-MVR20",
     "name": "usdt_mvr20",
     "fname": "Tether",
@@ -9615,82 +9445,6 @@
     }
   },
   {
-    "coin": "UST-ERC20",
-    "name": "ust_erc20",
-    "fname": "TerraUSD",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "decimals": 18,
-    "avg_blocktime": 0.25,
-    "required_confirmations": 3,
-    "wallet_only": true,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0xa47c8bf37f92aBed4A126BDA807A7b7498661acD"
-      }
-    }
-  },
-  {
-    "coin": "UST-BEP20",
-    "name": "ust_bep20",
-    "fname": "TerraUSD",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "decimals": 18,
-    "avg_blocktime": 0.05,
-    "required_confirmations": 3,
-    "wallet_only": true,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0x23396cF899Ca06c4472205fC903bDB4de249D6fC"
-      }
-    }
-  },
-  {
-    "coin": "UST-PLG20",
-    "name": "ust_plg20",
-    "fname": "TerraUSD",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 18,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 3,
-    "wallet_only": true,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0x692597b009d13C4049a947CAB2239b7d6517875F"
-      }
-    }
-  },
-  {
-    "coin": "UST-HRC20",
-    "name": "ust_hrc20",
-    "fname": "TerraUSD",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1666600000,
-    "decimals": 18,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 3,
-    "wallet_only": true,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ONE",
-        "contract_address": "0x224e64ec1BDce3870a6a6c777eDd450454068FEC"
-      }
-    }
-  },
-  {
     "coin": "WWCN-ERC20",
     "name": "wwcn_erc20",
     "fname": "Wrapped Widecoin",
@@ -9825,7 +9579,9 @@
     "txfee": 100000,
     "segwit": true,
     "bech32_hrp": "via",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "VIA",
     "mm2": 1,
     "protocol": {
@@ -9850,23 +9606,6 @@
     }
   },
   {
-    "coin": "VOTE2022",
-    "asset": "VOTE2022",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "rpcport": 33898,
-    "mm2": 1,
-    "txfee": 10000,
-    "txversion": 4,
-    "overwintered": 1,
-    "required_confirmations": 2,
-    "requires_notarization": true,
-    "avg_blocktime": 1,
-    "wallet_only": true,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "VRM",
     "name": "verium",
     "fname": "Verium Reserve",
@@ -9888,7 +9627,7 @@
     "coin": "VRSC",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "VRSC",
-    "fname": "VerusCoin",
+    "fname": "Verus Coin",
     "rpcport": 27486,
     "txversion": 4,
     "overwintered": 1,
@@ -9930,7 +9669,9 @@
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/28'",
+    "trezor_coin": "Vertcoin"
   },
   {
     "coin": "VTC-segwit",
@@ -9943,7 +9684,9 @@
     "txfee": 0,
     "segwit": true,
     "bech32_hrp": "vtc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "VTC",
     "mm2": 1,
     "required_confirmations": 4,
@@ -10004,22 +9747,6 @@
         "platform": "ONE",
         "contract_address": "0x3095c7557bCb296ccc6e363DE01b760bA031F2d9"
       }
-    }
-  },
-  {
-    "coin": "WLC",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "WLC21",
-    "fname": "Wireless Coin",
-    "rpcport": 38808,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": false,
-    "avg_blocktime": 1,
-    "protocol": {
-      "type": "UTXO"
     }
   },
   {
@@ -10160,7 +9887,9 @@
     "mm2": 1,
     "segwit": true,
     "bech32_hrp": "ep",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "XEP",
     "required_confirmations": 4,
     "avg_blocktime": 1.3,
@@ -10232,7 +9961,9 @@
     "txfee": 10000,
     "segwit": true,
     "bech32_hrp": "my",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "XMY",
     "mm2": 1,
     "required_confirmations": 3,
@@ -10369,7 +10100,7 @@
   {
     "coin": "XVC-OLD",
     "name": "vanillacash",
-    "fname": "Vanillacash",
+    "fname": "VanillaCash (old)",
     "isPoS": 1,
     "rpcport": 9195,
     "pubtype": 71,
@@ -10389,7 +10120,7 @@
   {
     "coin": "XVC",
     "name": "vanillacash",
-    "fname": "Vanillacash",
+    "fname": "VanillaCash",
     "isPoS": 1,
     "rpcport": 48888,
     "pubtype": 18,
@@ -10407,7 +10138,7 @@
   {
     "coin": "XVC-BEP20",
     "name": "xvc_bep20",
-    "fname": "Vanillacash",
+    "fname": "VanillaCash",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
@@ -10424,7 +10155,7 @@
   {
     "coin": "XVC-QRC20",
     "name": "xvc_qrc20",
-    "fname": "Vanillacash",
+    "fname": "VanillaCash",
     "rpcport": 3889,
     "pubtype": 58,
     "p2shtype": 50,
@@ -10662,22 +10393,6 @@
     }
   },
   {
-    "coin": "ZET-OLD",
-    "name": "zetacoin",
-    "fname": "Zetacoin (OLD)",
-    "rpcport": 8332,
-    "pubtype": 80,
-    "p2shtype": 9,
-    "wiftype": 224,
-    "txfee": 50000,
-    "mm2": 1,
-    "required_confirmations": 5,
-    "avg_blocktime": 0.5,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "ZET",
     "name": "zetacoin",
     "fname": "Zetacoin",
@@ -10785,7 +10500,7 @@
     "coin": "INK",
     "gui_coin": "INK",
     "name": "qtum",
-    "fname": "ink coin",
+    "fname": "INK",
     "rpcport": 3889,
     "mm2": 1,
     "required_confirmations": 3,
@@ -10806,28 +10521,28 @@
     "segwit": false,
     "decimals": 9
   },
-   {
-      "coin": "FLUX",
-      "name": "flux",
-      "fname": "Flux",
-      "rpcport": 16124,
-      "taddr": 28,
-      "pubtype": 184,
-      "p2shtype": 189,
-      "wiftype": 128,
-      "txversion": 4,
-      "overwintered": 1,
-      "version_group_id": "0x892f2085",
-      "consensus_branch_id": "0x76b809bb",
-      "txfee": 10000,
-      "mm2": 1,
-      "required_confirmations": 2,
-      "avg_blocktime": 1,
-      "protocol": {
-        "type": "UTXO"
-      }
-    },
-    {
+  {
+    "coin": "FLUX",
+    "name": "flux",
+    "fname": "Flux",
+    "rpcport": 16124,
+    "taddr": 28,
+    "pubtype": 184,
+    "p2shtype": 189,
+    "wiftype": 128,
+    "txversion": 4,
+    "overwintered": 1,
+    "version_group_id": "0x892f2085",
+    "consensus_branch_id": "0x76b809bb",
+    "txfee": 10000,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 1,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
     "coin": "FLUX-ERC20",
     "name": "flux_erc20",
     "fname": "Flux",
@@ -10845,7 +10560,7 @@
       }
     }
   },
-    {
+  {
     "coin": "FLUX-BEP20",
     "name": "flux_bep20",
     "fname": "Flux",
@@ -10891,7 +10606,7 @@
     "coin": "SPC",
     "gui_coin": "SPC",
     "name": "qtum",
-    "fname": "spacecash",
+    "fname": "SpaceChain",
     "rpcport": 3889,
     "mm2": 1,
     "required_confirmations": 3,
@@ -10941,7 +10656,7 @@
     "coin": "HPY",
     "gui_coin": "HPY",
     "name": "qtum",
-    "fname": "hyperpay",
+    "fname": "HyperPay",
     "rpcport": 3889,
     "mm2": 1,
     "required_confirmations": 3,
@@ -10991,7 +10706,7 @@
     "coin": "HLC",
     "gui_coin": "HLC",
     "name": "qtum",
-    "fname": "halal chain",
+    "fname": "HalalChain",
     "rpcport": 3889,
     "mm2": 1,
     "required_confirmations": 3,
@@ -11041,7 +10756,7 @@
     "coin": "LSTR",
     "gui_coin": "LSTR",
     "name": "qtum",
-    "fname": "luna stars",
+    "fname": "Luna Stars",
     "rpcport": 3889,
     "mm2": 1,
     "required_confirmations": 3,
@@ -11066,7 +10781,7 @@
     "coin": "QBT",
     "gui_coin": "QBT",
     "name": "qtum",
-    "fname": "qbt",
+    "fname": "Qbao",
     "rpcport": 3889,
     "mm2": 1,
     "required_confirmations": 3,
@@ -11091,7 +10806,7 @@
     "coin": "PLY",
     "gui_coin": "PLY",
     "name": "qtum",
-    "fname": "playcoin",
+    "fname": "PlayCoin",
     "rpcport": 3889,
     "mm2": 1,
     "required_confirmations": 3,
@@ -11116,7 +10831,7 @@
     "coin": "TSL",
     "gui_coin": "TSL",
     "name": "qtum",
-    "fname": "tesla",
+    "fname": "Energo TSL",
     "rpcport": 3889,
     "mm2": 1,
     "required_confirmations": 3,
@@ -11141,7 +10856,7 @@
     "coin": "OC",
     "gui_coin": "OC",
     "name": "qtum",
-    "fname": "ocash",
+    "fname": "OceanChain",
     "rpcport": 3889,
     "mm2": 1,
     "required_confirmations": 3,
@@ -11216,7 +10931,7 @@
     "coin": "PUT",
     "gui_coin": "PUT",
     "name": "qtum",
-    "fname": "profile utility token",
+    "fname": "Profile Utility Token",
     "rpcport": 3889,
     "mm2": 1,
     "required_confirmations": 3,
@@ -11316,7 +11031,7 @@
     "coin": "OKB",
     "gui_coin": "OKB",
     "name": "ethereum",
-    "fname": "okb",
+    "fname": "OKB",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11337,6 +11052,7 @@
     "name": "ethereum",
     "fname": "thorenext",
     "rpcport": 80,
+    "mm2": 0,
     "required_confirmations": 3,
     "avg_blocktime": 0.25,
     "protocol": {
@@ -11389,7 +11105,7 @@
     "coin": "REV",
     "gui_coin": "REV",
     "name": "ethereum",
-    "fname": "revain",
+    "fname": "Revain",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11408,7 +11124,7 @@
     "coin": "SNT",
     "gui_coin": "SNT",
     "name": "ethereum",
-    "fname": "statusnetwork",
+    "fname": "StatusNetwork",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11427,7 +11143,7 @@
     "coin": "ANT",
     "gui_coin": "ANT",
     "name": "ethereum",
-    "fname": "aragon",
+    "fname": "Aragon",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11465,7 +11181,7 @@
     "coin": "BEST",
     "gui_coin": "BEST",
     "name": "ethereum",
-    "fname": "bitpanda ecosystem token",
+    "fname": "Bitpanda Ecosystem Token",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11484,7 +11200,7 @@
     "coin": "CVT",
     "gui_coin": "CVT",
     "name": "ethereum",
-    "fname": "cyberveintoken",
+    "fname": "CyberVeinToken",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11503,7 +11219,7 @@
     "coin": "DX",
     "gui_coin": "DX",
     "name": "ethereum",
-    "fname": "dxchain token",
+    "fname": "DxChain",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11522,7 +11238,7 @@
     "coin": "STORJ",
     "gui_coin": "STORJ",
     "name": "ethereum",
-    "fname": "storj",
+    "fname": "Storj",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11541,7 +11257,7 @@
     "coin": "TRAC",
     "gui_coin": "TRAC",
     "name": "ethereum",
-    "fname": "trace",
+    "fname": "Trace",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11592,7 +11308,7 @@
     "coin": "PNK",
     "gui_coin": "PNK",
     "name": "ethereum",
-    "fname": "pinakion",
+    "fname": "Pinakion",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11611,7 +11327,7 @@
     "coin": "SKL",
     "gui_coin": "SKL",
     "name": "ethereum",
-    "fname": "skale",
+    "fname": "SKALE",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11630,7 +11346,7 @@
     "coin": "CVC",
     "gui_coin": "CVC",
     "name": "ethereum",
-    "fname": "civic",
+    "fname": "Civic",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11649,7 +11365,7 @@
     "coin": "TMTG",
     "gui_coin": "TMTG",
     "name": "ethereum",
-    "fname": "the midas touch gold",
+    "fname": "The Midas Touch Gold",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11668,7 +11384,7 @@
     "coin": "CENNZ",
     "gui_coin": "CENNZ",
     "name": "ethereum",
-    "fname": "centrality token",
+    "fname": "Centrality Token",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11687,7 +11403,7 @@
     "coin": "UTK",
     "gui_coin": "UTK",
     "name": "ethereum",
-    "fname": "utrust",
+    "fname": "UTRUST",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11706,7 +11422,7 @@
     "coin": "MLN",
     "gui_coin": "MLN",
     "name": "ethereum",
-    "fname": "melon token",
+    "fname": "Melon Token",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11725,7 +11441,7 @@
     "coin": "TTT",
     "gui_coin": "TTT",
     "name": "ethereum",
-    "fname": "the transfer token",
+    "fname": "The Transfer Token",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11744,7 +11460,7 @@
     "coin": "XOR",
     "gui_coin": "XOR",
     "name": "ethereum",
-    "fname": "sora token",
+    "fname": "Sora Token",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11782,7 +11498,7 @@
     "coin": "UQC",
     "gui_coin": "UQC",
     "name": "ethereum",
-    "fname": "uquid coin",
+    "fname": "Uquid Coin",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11801,7 +11517,7 @@
     "coin": "UOS",
     "gui_coin": "UOS",
     "name": "ethereum",
-    "fname": "ultra token",
+    "fname": "Ultra Token",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11820,7 +11536,7 @@
     "coin": "SHR",
     "gui_coin": "SHR",
     "name": "ethereum",
-    "fname": "sharetoken",
+    "fname": "ShareToken",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11839,7 +11555,7 @@
     "coin": "S4F",
     "gui_coin": "S4F",
     "name": "ethereum",
-    "fname": "s4fe",
+    "fname": "S4FE",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11858,6 +11574,7 @@
     "coin": "tBCH",
     "name": "Bitcoin Cash Testnet",
     "fname": "Bitcoin Cash Testnet",
+    "is_testnet": true,
     "pubtype": 111,
     "p2shtype": 196,
     "wiftype": 239,
@@ -11882,7 +11599,7 @@
   {
     "coin": "USBL",
     "name": "bitdollar",
-    "fname": "Balanced",
+    "fname": "Balanced Dollar",
     "confpath": "USERHOME/.bitdollar/bitdollar.conf",
     "rpcport": 35573,
     "pubtype": 65,
@@ -11898,13 +11615,16 @@
   },
   {
     "coin": "USDF",
+    "fname": "Fake USD",
+    "is_testnet": true,
     "protocol": {
       "type": "SLPTOKEN",
       "protocol_data": {
         "decimals": 4,
         "token_id": "bb309e48930671582bea508f9a1d9b491e49b69be3d6f372dc08da2ac6e90eb7",
         "platform": "tBCH",
-        "required_confirmations": 1
+        "required_confirmations": 1,
+        "slp_prefix": "slptest"
       }
     },
     "mm2": 1
@@ -11941,7 +11661,9 @@
     "dust": 1000,
     "segwit": true,
     "bech32_hrp": "wv",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "WHIVE",
     "mm2": 1,
     "required_confirmations": 1,
@@ -11953,13 +11675,16 @@
   },
   {
     "coin": "sTST",
+    "fname": "sTST",
+    "is_testnet": true,
     "protocol": {
       "type": "SLPTOKEN",
       "protocol_data": {
         "decimals": 4,
         "token_id": "037eb9fc8a5f0faed4e5c15c15e69cd9f5d8a87b5f11e0ba3dce17b562705d6c",
         "platform": "tBCH",
-        "required_confirmations": 1
+        "required_confirmations": 1,
+        "slp_prefix": "slptest"
       }
     },
     "mm2": 1
@@ -11981,7 +11706,7 @@
       "network": "ecash"
     },
     "mm2": 1,
-    "decimals":2,
+    "decimals": 2,
     "required_confirmations": 1,
     "avg_blocktime": 10,
     "protocol": {
@@ -12021,14 +11746,15 @@
     }
   },
   {
-    "coin":"ZOMBIE",
-    "asset":"ZOMBIE",
-    "txversion":4,
-    "overwintered":1,
+    "coin": "ZOMBIE",
+    "asset": "ZOMBIE",
+    "fname": "Zombie",
+    "txversion": 4,
+    "overwintered": 1,
     "avg_blocktime": 1,
-    "mm2":1,
-    "protocol":{
-      "type":"ZHTLC",
+    "mm2": 1,
+    "protocol": {
+      "type": "ZHTLC",
       "protocol_data": {
         "consensus_params": {
           "overwinter_activation_height": 0,
@@ -12040,8 +11766,14 @@
           "hrp_sapling_extended_spending_key": "secret-extended-key-main",
           "hrp_sapling_extended_full_viewing_key": "zxviews",
           "hrp_sapling_payment_address": "zs",
-          "b58_pubkey_address_prefix": [ 28, 184 ],
-          "b58_script_address_prefix": [ 28, 189 ]
+          "b58_pubkey_address_prefix": [
+            28,
+            184
+          ],
+          "b58_script_address_prefix": [
+            28,
+            189
+          ]
         }
       }
     },
@@ -12088,6 +11820,7 @@
     "coin": "ACTN",
     "asset": "ACTN",
     "fname": "Action Coin",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "rpcport": 51677,
     "txversion": 4,
     "overwintered": 1,
