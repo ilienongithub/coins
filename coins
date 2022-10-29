@@ -10743,56 +10743,6 @@
     "decimals": 8
   },
   {
-    "coin": "EPC",
-    "gui_coin": "EPC",
-    "name": "qtum",
-    "fname": "epc",
-    "rpcport": 3889,
-    "mm2": 1,
-    "required_confirmations": 3,
-    "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
-    "txfee": 0,
-    "dust": 72800,
-    "protocol": {
-      "type": "QRC20",
-      "protocol_data": {
-        "platform": "QTUM",
-        "contract_address": "0x2e1b8528c07539b5dd9a76f3374adf09f1ab6075"
-      }
-    },
-    "pubtype": 58,
-    "p2shtype": 50,
-    "wiftype": 128,
-    "segwit": false,
-    "decimals": 18
-  },
-  {
-    "coin": "WID",
-    "gui_coin": "WID",
-    "name": "qtum",
-    "fname": "winechain",
-    "rpcport": 3889,
-    "mm2": 1,
-    "required_confirmations": 3,
-    "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
-    "txfee": 0,
-    "dust": 72800,
-    "protocol": {
-      "type": "QRC20",
-      "protocol_data": {
-        "platform": "QTUM",
-        "contract_address": "0x59e7e07a4c7035a9df3f118b95ce6d64eee6ea35"
-      }
-    },
-    "pubtype": 58,
-    "p2shtype": 50,
-    "wiftype": 128,
-    "segwit": false,
-    "decimals": 8
-  },
-  {
     "coin": "OKB-ERC20",
     "name": "okb_erc20",
     "fname": "OKB",
