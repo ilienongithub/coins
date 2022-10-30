@@ -1625,7 +1625,9 @@
     "avg_blocktime": 10,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/0'",
+    "trezor_coin": "Bitcoin"
   },
   {
     "coin": "BTC-segwit",
@@ -2783,7 +2785,9 @@
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/5'",
+    "trezor_coin": "Dash"
   },
   {
     "coin": "DDD-ERC20",
@@ -2851,7 +2855,9 @@
     "avg_blocktime": 0.25,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/20'",
+    "trezor_coin": "DigiByte"
   },
   {
     "coin": "DGB-segwit",
@@ -3055,7 +3061,9 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/3'",
+    "trezor_coin": "Dogecoin"
   },
   {
     "coin": "DOGE-BEP20",
@@ -4957,7 +4965,9 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
   },
   {
     "coin": "KMD-BEP20",
@@ -5579,7 +5589,9 @@
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/2'",
+    "trezor_coin": "Litecoin"
   },
   {
     "coin": "LTC-segwit",
@@ -6204,7 +6216,9 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
   },
   {
     "coin": "MOVR",
@@ -6454,7 +6468,9 @@
     "avg_blocktime": 10,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/7'",
+    "trezor_coin": "Namecoin"
   },
   {
     "coin": "NMC-segwit",
@@ -7681,7 +7697,9 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
   },
   {
     "coin": "RLC-ERC20",
@@ -9568,7 +9586,9 @@
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/28'",
+    "trezor_coin": "Vertcoin"
   },
   {
     "coin": "VTC-segwit",
