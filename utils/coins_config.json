@@ -10493,17 +10493,6 @@
                         "discord": "honglu69#5911"
                     }
                 ]
-            },
-            {
-                "url": "electrum2.mooo.com:10001",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ]
             }
         ]
     },
@@ -14286,14 +14275,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "1.eu.thc.electrum.dexstats.info:10020",
-                "contact": [
-                    {
-                        "discord": "CHMEX#0686"
-                    }
-                ]
-            },
-            {
                 "url": "2.eu.thc.electrum.dexstats.info:10020",
                 "contact": [
                     {
@@ -17470,6 +17451,99 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "contract_address": "0xb27d7bf95b03e02b55d5eb63d3f1692762101bf9",
+        "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10050",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
+            },
+            {
+                "url": "electrum2.cipig.net:10050",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
+            },
+            {
+                "url": "electrum3.cipig.net:10050",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
+            },
+            {
+                "url": "electrum1.cipig.net:20050",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20050",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20050",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ]
+    },
+    "MED": {
+        "coin": "MED",
+        "type": "QRC-20",
+        "name": "Medibloc",
+        "coinpaprika_id": "med-medibloc-qrc20",
+        "coingecko_id": "medibloc",
+        "nomics_id": "MED",
+        "explorer_url": "https://explorer.qtum.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "contract_address": "0x2f65a0af11d50d2d15962db39d7f7b0619ed55ae",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
         "electrum": [
             {
