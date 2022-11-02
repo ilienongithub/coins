@@ -2959,7 +2959,7 @@
   },
   {
     "coin": "DIMI-QRC20",
-    "name": "dimi_qrc20",
+    "name": "qtum",
     "fname": "Diminutive Coin",
     "rpcport": 3889,
     "pubtype": 58,
@@ -6557,7 +6557,7 @@
   },
   {
     "coin": "NVC-QRC20",
-    "name": "nvc_qrc20",
+    "name": "qtum",
     "fname": "Novacoin",
     "rpcport": 3889,
     "pubtype": 58,
@@ -10112,7 +10112,7 @@
   },
   {
     "coin": "XVC-QRC20",
-    "name": "xvc_qrc20",
+    "name": "qtum",
     "fname": "VanillaCash",
     "rpcport": 3889,
     "pubtype": 58,
@@ -10474,7 +10474,6 @@
   },
   {
     "coin": "INK",
-    "gui_coin": "INK",
     "name": "qtum",
     "fname": "INK",
     "rpcport": 3889,
@@ -10554,33 +10553,7 @@
     }
   },
   {
-    "coin": "SPC",
-    "gui_coin": "SPC",
-    "name": "qtum",
-    "fname": "SpaceChain",
-    "rpcport": 3889,
-    "mm2": 1,
-    "required_confirmations": 3,
-    "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
-    "txfee": 0,
-    "dust": 72800,
-    "protocol": {
-      "type": "QRC20",
-      "protocol_data": {
-        "platform": "QTUM",
-        "contract_address": "0x57931faffdec114056a49adfcaa1caac159a1a25"
-      }
-    },
-    "pubtype": 58,
-    "p2shtype": 50,
-    "wiftype": 128,
-    "segwit": false,
-    "decimals": 8
-  },
-  {
     "coin": "HPY",
-    "gui_coin": "HPY",
     "name": "qtum",
     "fname": "HyperPay",
     "rpcport": 3889,
@@ -10605,7 +10578,6 @@
   },
   {
     "coin": "HLC",
-    "gui_coin": "HLC",
     "name": "qtum",
     "fname": "HalalChain",
     "rpcport": 3889,
@@ -10630,7 +10602,7 @@
   },
   {
     "coin": "MED",
-    "name": "med_qrc20",
+    "name": "qtum",
     "fname": "Medibloc",
     "rpcport": 3889,
     "mm2": 1,
@@ -10654,7 +10626,6 @@
   },
   {
     "coin": "LSTR",
-    "gui_coin": "LSTR",
     "name": "qtum",
     "fname": "Luna Stars",
     "rpcport": 3889,
@@ -10679,7 +10650,6 @@
   },
   {
     "coin": "QBT",
-    "gui_coin": "QBT",
     "name": "qtum",
     "fname": "Qbao",
     "rpcport": 3889,
@@ -10704,7 +10674,6 @@
   },
   {
     "coin": "TSL",
-    "gui_coin": "TSL",
     "name": "qtum",
     "fname": "Energo TSL",
     "rpcport": 3889,
@@ -10729,7 +10698,6 @@
   },
   {
     "coin": "OC",
-    "gui_coin": "OC",
     "name": "qtum",
     "fname": "OceanChain",
     "rpcport": 3889,
@@ -10754,7 +10722,6 @@
   },
   {
     "coin": "PUT",
-    "gui_coin": "PUT",
     "name": "qtum",
     "fname": "Profile Utility Token",
     "rpcport": 3889,
