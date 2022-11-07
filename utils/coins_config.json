@@ -8707,7 +8707,8 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum10.groestlcoin.org:50001"
+                "url": "electrum10.groestlcoin.org:50001",
+                "ws_url": "electrum10.groestlcoin.org:50004"
             },
             {
                 "url": "electrum11.groestlcoin.org:50001",
@@ -13519,6 +13520,12 @@
                 "url": "46.229.238.187:57001"
             },
             {
+                "url": "electrum.namebrow.se:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrum.namebrow.se:50004"
+            },
+            {
                 "url": "nmc2.bitcoins.sk:57002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -16156,6 +16163,9 @@
             },
             {
                 "url": "209.50.52.239:50001"
+            },
+            {
+                "url": "209.50.61.246:50001"
             }
         ]
     },
@@ -23909,19 +23919,6 @@
                         "discord": "Bago#7842"
                     }
                 ]
-            },
-            {
-                "url": "electrum1.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ],
-                "ws_url": "electrum1.runebase.io:50004"
             },
             {
                 "url": "electrum3.runebase.io:50002",
