@@ -15846,7 +15846,7 @@
         "type": "QRC-20",
         "name": "QTUM Testnet",
         "coinpaprika_id": "test-coin",
-        "coingecko_id": "test-coin",
+        "coingecko_id": "",
         "nomics_id": "",
         "explorer_url": "https://testnet.qtum.info/",
         "explorer_tx_url": "",
@@ -24307,5 +24307,77 @@
             }
         ],
         "token_address_url": "tokentxns?a="
+    },
+    "ATOM": {
+        "coin": "ATOM",
+        "type": "TENDERMINT",
+        "name": "Cosmos",
+        "coinpaprika_id": "atom-cosmos",
+        "coingecko_id": "cosmos",
+        "nomics_id": "",
+        "explorer_url": "https://www.mintscan.io/cosmos/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "rpc_urls": [
+            {
+                "url": "https://rpc.atomscan.com/"
+            },
+            {
+                "url": "https://cosmos-mainnet-rpc.allthatnode.com:26657/"
+            }
+        ]
+    },
+    "IRIS": {
+        "coin": "IRIS",
+        "type": "TENDERMINTTOKEN",
+        "name": "Iris",
+        "coinpaprika_id": "iris-irisnet",
+        "coingecko_id": "iris-network",
+        "nomics_id": "",
+        "explorer_url": "https://irishub.iobscan.io/#",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "rpc_urls": [
+            {
+                "url": "https://iris.komodo.live/"
+            },
+            {
+                "url": "https://rpc.irishub-1.irisnet.org"
+            }
+        ]
+    },
+    "ATOM-IBC_IRIS": {
+        "coin": "ATOM-IBC_IRIS",
+        "type": "TENDERMINTTOKEN",
+        "name": "Cosmos IBC-IRIS",
+        "coinpaprika_id": "atom-cosmos",
+        "coingecko_id": "cosmos-hub",
+        "nomics_id": "",
+        "explorer_url": "https://irishub.iobscan.io/#",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "rpc_urls": [
+            {
+                "url": "https://iris.komodo.live/"
+            },
+            {
+                "url": "https://rpc.irishub-1.irisnet.org"
+            }
+        ]
     }
 }
