@@ -23511,6 +23511,34 @@
         ],
         "asset": "VRSC"
     },
+    "GRMS": {
+        "coin": "GRMS",
+        "type": "Smart Chain",
+        "name": "GRMS",
+        "coinpaprika_id": "grms-grms",
+        "coingecko_id": "test-coin",
+        "nomics_id": "GRMS",
+        "explorer_url": "https://explorer.grms.pw/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum.grms.pw:17485",
+                "contact": [
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            }
+        ],
+        "asset": "GRMS"
+    },
     "VTC": {
         "coin": "VTC",
         "type": "UTXO",
