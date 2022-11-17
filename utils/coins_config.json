@@ -2692,11 +2692,7 @@
                     }
                 ]
             }
-        ],
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        }
+        ]
     },
     "USDT-SLP": {
         "coin": "USDT-SLP",
@@ -9125,15 +9121,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "electrumx02.firo.org:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrum-xzc/issues"
-                    }
-                ]
-            },
             {
                 "url": "electrumx03.firo.org:50001",
                 "protocol": "TCP",
@@ -21003,18 +20990,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "1.eu.tokel.electrum.dexstats.info:10077",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ],
-                "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
-            },
-            {
                 "url": "2.eu.tokel.electrum.dexstats.info:10077",
                 "contact": [
                     {
@@ -21025,18 +21000,6 @@
                     }
                 ],
                 "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
-            },
-            {
-                "url": "1.eu.tokel.electrum.dexstats.info:11077",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ]
             },
             {
                 "url": "2.eu.tokel.electrum.dexstats.info:11077",
