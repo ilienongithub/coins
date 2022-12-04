@@ -4097,7 +4097,9 @@
         "is_segwit_on": false,
         "address_format": {
             "format": "standard"
-        }
+        },
+        "derivation_path": "m/44'/0'",
+        "trezor_coin": "Bitcoin"
     },
     "BTC-BEP20": {
         "coin": "BTC-BEP20",
@@ -5362,6 +5364,17 @@
             },
             {
                 "url": "electrum1.mooo.com:10007",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.mooo.com:10007",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"
@@ -6681,7 +6694,9 @@
                     }
                 ]
             }
-        ]
+        ],
+        "derivation_path": "m/44'/5'",
+        "trezor_coin": "Dash"
     },
     "DDD-ERC20": {
         "coin": "DDD-ERC20",
@@ -6992,7 +7007,9 @@
         "is_segwit_on": false,
         "address_format": {
             "format": "standard"
-        }
+        },
+        "derivation_path": "m/44'/20'",
+        "trezor_coin": "DigiByte"
     },
     "DGC": {
         "coin": "DGC",
@@ -7517,7 +7534,9 @@
                     }
                 ]
             }
-        ]
+        ],
+        "derivation_path": "m/44'/3'",
+        "trezor_coin": "Dogecoin"
     },
     "DOGE-BEP20": {
         "coin": "DOGE-BEP20",
@@ -7932,18 +7951,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "electrum1.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "electrum1.egulden.org:50004"
-            },
-            {
-                "url": "electrum2.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "electrum2.egulden.org:50004"
-            },
             {
                 "url": "lenoir.ecoincore.com:11017",
                 "protocol": "SSL",
@@ -12191,7 +12198,9 @@
             }
         ],
         "is_claimable": true,
-        "minimal_claim_amount": "10"
+        "minimal_claim_amount": "10",
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "KMD-BEP20": {
         "coin": "KMD-BEP20",
@@ -13659,7 +13668,9 @@
         "is_segwit_on": false,
         "address_format": {
             "format": "standard"
-        }
+        },
+        "derivation_path": "m/44'/2'",
+        "trezor_coin": "Litecoin"
     },
     "LYNX": {
         "coin": "LYNX",
@@ -15108,7 +15119,9 @@
                 ]
             }
         ],
-        "asset": "MORTY"
+        "asset": "MORTY",
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "MOVR": {
         "coin": "MOVR",
@@ -15515,6 +15528,17 @@
                         "discord": "honglu69#5911"
                     }
                 ]
+            },
+            {
+                "url": "electrum2.mooo.com:10001",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ]
             }
         ]
     },
@@ -15763,7 +15787,9 @@
         "is_segwit_on": false,
         "address_format": {
             "format": "standard"
-        }
+        },
+        "derivation_path": "m/44'/7'",
+        "trezor_coin": "Namecoin"
     },
     "NVC": {
         "coin": "NVC",
@@ -18608,7 +18634,9 @@
                 ]
             }
         ],
-        "asset": "RICK"
+        "asset": "RICK",
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "RLC-ERC20": {
         "coin": "RLC-ERC20",
@@ -23163,7 +23191,9 @@
         "is_segwit_on": false,
         "address_format": {
             "format": "standard"
-        }
+        },
+        "derivation_path": "m/44'/28'",
+        "trezor_coin": "Vertcoin"
     },
     "WAVES-BEP20": {
         "coin": "WAVES-BEP20",
