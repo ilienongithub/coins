@@ -12794,7 +12794,7 @@
         "coin": "LNC",
         "type": "UTXO",
         "name": "LightningCash",
-        "coinpaprika_id": "lnc-lightningcash",
+        "coinpaprika_id": "ltncg-lightning-cash",
         "coingecko_id": "lightningcash-gold",
         "nomics_id": "LNC3",
         "explorer_url": "https://explorer.lightningcash-coin.com/",
@@ -18144,7 +18144,9 @@
         "is_segwit_on": false,
         "address_format": {
             "format": "standard"
-        }
+        },
+        "derivation_path": "m/44'/2301'",
+        "trezor_coin": "Qtum"
     },
     "QTUM-ERC20": {
         "coin": "QTUM-ERC20",
