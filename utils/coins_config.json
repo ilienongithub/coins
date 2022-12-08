@@ -12785,7 +12785,7 @@
         "coin": "LNC",
         "type": "UTXO",
         "name": "LightningCash",
-        "coinpaprika_id": "ltncg-lightning-cash",
+        "coinpaprika_id": "ltncg-lightningcash-gold",
         "coingecko_id": "lightningcash-gold",
         "nomics_id": "LNC3",
         "explorer_url": "https://explorer.lightningcash-coin.com/",
@@ -15191,6 +15191,18 @@
                 "ws_url": "electrum1.cipig.net:30013"
             },
             {
+                "url": "electrum2.cipig.net:10013",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30013"
+            },
+            {
                 "url": "electrum3.cipig.net:10013",
                 "contact": [
                     {
@@ -15204,6 +15216,18 @@
             },
             {
                 "url": "electrum1.cipig.net:20013",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20013",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -27972,6 +27996,62 @@
         "address_format": {
             "format": "standard"
         }
+    },
+    "ACTN": {
+        "coin": "ACTN",
+        "type": "Smart Chain",
+        "name": "Action Coin",
+        "coinpaprika_id": "actn-action-coin",
+        "coingecko_id": "action-coin",
+        "nomics_id": "ACTN",
+        "explorer_url": "https://exp.actioncoin.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrumx1.actioncoin.com:10001",
+                "contact": [
+                    {
+                        "email": "support@actioncoin.com"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.actioncoin.com:10001",
+                "contact": [
+                    {
+                        "email": "support@actioncoin.com"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.actioncoin.com:30001",
+                "ws_url": "electrumx1.actioncoin.com:20001",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@actioncoin.com"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.actioncoin.com:30001",
+                "ws_url": "electrumx2.actioncoin.com:20001",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@actioncoin.com"
+                    }
+                ]
+            }
+        ],
+        "asset": "ACTN"
     },
     "ACTN-BEP20": {
         "coin": "ACTN-BEP20",
