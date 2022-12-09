@@ -7755,7 +7755,7 @@
         "coin": "DOI",
         "type": "UTXO",
         "name": "Doichain",
-        "coinpaprika_id": "doi-doicoin",
+        "coinpaprika_id": "doi-doichain",
         "coingecko_id": "doichain",
         "nomics_id": "DOI",
         "explorer_url": "https://explorer.doichain.org/",
