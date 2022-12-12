@@ -3222,6 +3222,14 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum1.blackcoin.nl:10001",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.blackcoin.nl:20001",
                 "contact": [
                     {
@@ -3236,6 +3244,17 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
+            },
+            {
+                "url": "electrum1.blackcoin.nl:10002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "ws_url": "electrum1.blackcoin.nl:10004"
             },
             {
                 "url": "electrum2.blackcoin.nl:20002",
@@ -3327,6 +3346,14 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum1.blackcoin.nl:10011",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.blackcoin.nl:20011",
                 "contact": [
                     {
@@ -3341,6 +3368,17 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
+            },
+            {
+                "url": "electrum1.blackcoin.nl:10012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "ws_url": "electrum1.blackcoin.nl:10014"
             },
             {
                 "url": "electrum2.blackcoin.nl:20012",
@@ -5029,12 +5067,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "holland.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "holland.ecoincore.com:34335"
-            },
             {
                 "url": "lenoir.ecoincore.com:34333",
                 "protocol": "SSL",
@@ -7755,7 +7787,7 @@
         "coin": "DOI",
         "type": "UTXO",
         "name": "Doichain",
-        "coinpaprika_id": "doi-doicoin",
+        "coinpaprika_id": "doi-doichain",
         "coingecko_id": "doichain",
         "nomics_id": "DOI",
         "explorer_url": "https://explorer.doichain.org/",
@@ -17391,8 +17423,16 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx.live:50010",
+                "protocol": "TCP"
+            },
+            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "txserver.live:50002",
@@ -20965,14 +21005,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "1.eu.thc.electrum.dexstats.info:10020",
-                "contact": [
-                    {
-                        "discord": "CHMEX#0686"
-                    }
-                ]
-            },
-            {
                 "url": "2.eu.thc.electrum.dexstats.info:10020",
                 "contact": [
                     {
@@ -22795,6 +22827,14 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "e1.validitytech.com:11001",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "e2.validitytech.com:11001",
                 "contact": [
                     {
@@ -22809,6 +22849,17 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
+            },
+            {
+                "url": "e1.validitytech.com:11002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "ws_url": "e1.validitytech.com:11004"
             },
             {
                 "url": "e2.validitytech.com:11002",
