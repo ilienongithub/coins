@@ -769,6 +769,7 @@
     "txfee": 10000,
     "confpath": "USERHOME/.axecore/axe.conf",
     "mm2": 1,
+    "check_utxo_maturity": true,
     "mature_confirmations": 101,
     "required_confirmations": 3,
     "avg_blocktime": 2.5,
@@ -1374,6 +1375,7 @@
     "segwit": true,
     "mm2": 1,
     "required_confirmations": 5,
+    "check_utxo_maturity": true,
     "mature_confirmations": 500,
     "avg_blocktime": 1.1,
     "protocol": {
@@ -1412,6 +1414,7 @@
     "mm2": 1,
     "is_testnet": true,
     "required_confirmations": 5,
+    "check_utxo_maturity": true,
     "mature_confirmations": 10,
     "avg_blocktime": 1.1,
     "protocol": {
@@ -4999,8 +5002,8 @@
     "txfee": 1000,
     "mm2": 1,
     "sign_message_prefix": "Komodo Signed Message:\n",
-    "required_confirmations": 2,
-    "requires_notarization": true,
+    "required_confirmations": 4,
+    "requires_notarization": false,
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
@@ -6320,6 +6323,58 @@
     }
   },
   {
+    "coin": "MTSLA-ERC20",
+    "name": "mtsla_erc20",
+    "fname": "Mirrored Tesla",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x21cA39943E91d704678F5D00b6616650F066fD63"
+      }
+    }
+  },
+  {
+    "coin": "MTSLA-BEP20",
+    "name": "mtsla_bep20",
+    "fname": "Mirrored Tesla",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xF215A127A196e3988C09d052e16BcFD365Cd7AA3"
+      }
+    }
+  },
+  {
+    "coin": "NATURE",
+    "asset": "NATURE",
+    "fname": "Nature Digital Currency",
+    "rpcport": 63380,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": false,
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "avg_blocktime": 2,
+    "protocol": {
+        "type": "UTXO"
+    }
+  },
+  {
     "coin": "NAV",
     "name": "navcoin",
     "fname": "Navcoin",
@@ -7488,7 +7543,9 @@
     "avg_blocktime": 0.53,
     "protocol": {
       "type": "QTUM"
-    }
+    },
+    "derivation_path": "m/44'/2301'",
+    "trezor_coin": "Qtum"
   },
   {
     "coin": "QTUM-segwit",
@@ -7892,6 +7949,22 @@
     "wiftype": 128,
     "txfee": 200000,
     "mm2": 1,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
+    "coin": "SIX",
+    "asset": "SIX",
+    "fname": "End Time Currency",
+    "rpcport": 20020,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": false,
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "avg_blocktime": 2,
     "protocol": {
       "type": "UTXO"
     }
@@ -9398,7 +9471,8 @@
     "mm2": 1,
     "required_confirmations": 5,
     "avg_blocktime": 1,
-    "mature_confirmations": 60,
+    "check_utxo_maturity": true,
+    "mature_confirmations": 120,
     "protocol": {
       "type": "UTXO"
     }

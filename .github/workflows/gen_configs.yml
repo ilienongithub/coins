@@ -2,7 +2,7 @@ name: Update Coin Configs
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "nogeo" ]
     paths-ignore:
       - 'utils/coins_config.json'
   schedule:
@@ -33,8 +33,8 @@ jobs:
             - Electrum scan report updated
           labels: |
             config-update
-          assignees: cipig, smk762, gcharang
-          reviewers: cipig, smk762, gcharang
+          assignees: cipig
+          reviewers: cipig
           team-reviewers: |
             owners
             maintainers
