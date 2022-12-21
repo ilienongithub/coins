@@ -15029,9 +15029,6 @@
         "sign_message_prefix": "Monacoin Signed Message:\n",
         "electrum": [
             {
-                "url": "102.67.136.247:50001"
-            },
-            {
                 "url": "133.167.67.203:50001"
             },
             {
