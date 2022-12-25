@@ -6,7 +6,7 @@ on:
     paths-ignore:
       - 'utils/coins_config.json'
   schedule:
-    - cron:  '0 0 * * *'
+    - cron:  '0 18 * * *'
 
 jobs:
   update_configs:
