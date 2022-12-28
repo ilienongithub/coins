@@ -4221,56 +4221,6 @@
         ],
         "token_address_url": "tokentxns?a="
     },
-    "BTE": {
-        "coin": "BTE",
-        "type": "UTXO",
-        "name": "Bitweb",
-        "coinpaprika_id": "bte-bitweb",
-        "coingecko_id": "bitweb",
-        "nomics_id": "BTE3",
-        "explorer_url": "https://explorer.bitwebcore.org/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "electrum": [
-            {
-                "url": "electrumx6.scalaris.info:20001",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx7.scalaris.info:20001",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ]
-            }
-        ],
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        }
-    },
     "BTT-BEP20": {
         "coin": "BTT-BEP20",
         "type": "BEP-20",
@@ -5060,6 +5010,12 @@
         "wallet_only": false,
         "sign_message_prefix": "Canada eCoin Signed Message:\n",
         "electrum": [
+            {
+                "url": "holland.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "holland.ecoincore.com:34335"
+            },
             {
                 "url": "lenoir.ecoincore.com:34333",
                 "protocol": "SSL",
@@ -12706,6 +12662,33 @@
             "format": "standard"
         }
     },
+    "LCC": {
+        "coin": "LCC",
+        "type": "UTXO",
+        "name": "Litecoin Cash",
+        "coinpaprika_id": "lcc-litecoin-cash",
+        "coingecko_id": "litecoin-cash",
+        "nomics_id": "LCC",
+        "explorer_url": "https://chainz.cryptoid.info/lcc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Litecoin Signed Message:\n",
+        "electrum": [
+            {
+                "url": "188.166.117.139:50001",
+                "protocol": "TCP"
+            }
+        ],
+        "is_segwit_on": false,
+        "address_format": {
+            "format": "standard"
+        }
+    },
     "LDO-ERC20": {
         "coin": "LDO-ERC20",
         "type": "ERC-20",
@@ -12821,22 +12804,6 @@
         "electrum": [
             {
                 "url": "electrumx1.lightningcash-coin.com:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "merlin@lightningcash-coin.com"
-                    },
-                    {
-                        "discord": "merlin#7125"
-                    },
-                    {
-                        "twitter": "LightningCash_1"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.lightningcash-coin.com:50001",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -20558,66 +20525,6 @@
             "format": "standard"
         }
     },
-    "SCA": {
-        "coin": "SCA",
-        "type": "UTXO",
-        "name": "Scalaris",
-        "coinpaprika_id": "sca-scalaris",
-        "coingecko_id": "test-coin",
-        "nomics_id": "SCA2",
-        "explorer_url": "https://explorer.scalaris.info/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "electrum": [
-            {
-                "url": "electrum1.scalaris.info:10001",
-                "contact": [
-                    {
-                        "email": "scalariscoin@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/scalaris-project/electrumx/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.scalaris.info:10001",
-                "contact": [
-                    {
-                        "email": "scalariscoin@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/scalaris-project/electrumx/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.scalaris.info:10001",
-                "contact": [
-                    {
-                        "email": "scalariscoin@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/scalaris-project/electrumx/issues"
-                    }
-                ]
-            }
-        ]
-    },
     "TAMA-ERC20": {
         "coin": "TAMA-ERC20",
         "type": "ERC-20",
@@ -27765,53 +27672,6 @@
             }
         ],
         "token_address_url": "tokentxns?a="
-    },
-    "ZOMBIE": {
-        "coin": "ZOMBIE",
-        "type": "ZHTLC",
-        "name": "Zombie",
-        "coinpaprika_id": "test-coin",
-        "coingecko_id": "test-coin",
-        "nomics_id": "",
-        "explorer_url": "https://zombie.explorer.lordofthechains.com/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "light_wallet_d_servers": [
-            "https://zombie.sirseven.me:443"
-        ],
-        "electrum": [
-            {
-                "url": "zombie.sirseven.me:10033",
-                "contact": [
-                    {
-                        "email": "igor@komodoplatform.com"
-                    },
-                    {
-                        "discord": "Sir Seven#7158"
-                    }
-                ],
-                "ws_url": "zombie.sirseven.me:30058"
-            },
-            {
-                "url": "zombie.sirseven.me:20033",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "igor@komodoplatform.com"
-                    },
-                    {
-                        "discord": "Sir Seven#7158"
-                    }
-                ],
-                "ws_url": "zombie.sirseven.me:30058"
-            }
-        ],
-        "asset": "ZOMBIE"
     },
     "ZINU-BEP20": {
         "coin": "ZINU-BEP20",
