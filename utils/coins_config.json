@@ -7905,12 +7905,6 @@
         "wallet_only": false,
         "electrum": [
             {
-                "url": "electrum3.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "electrum3.egulden.org:50004"
-            },
-            {
                 "url": "holland.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -23703,11 +23697,6 @@
                 "url": "blackie.c3-soft.com:52138",
                 "protocol": "SSL",
                 "disable_cert_verification": false
-            },
-            {
-                "url": "fulcrum.ergon.network:52138",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             },
             {
                 "url": "xrg_ful.googol.cash:52138",
