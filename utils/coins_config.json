@@ -16061,12 +16061,6 @@
                 "url": "46.229.238.187:57001"
             },
             {
-                "url": "electrum.namebrow.se:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "electrum.namebrow.se:50004"
-            },
-            {
                 "url": "nmc2.bitcoins.sk:57002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -24172,6 +24166,11 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "la.ask.systems:52138",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "xrg_ful.googol.cash:52138",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -24596,9 +24595,9 @@
         "coin": "XVS-BEP20",
         "type": "BEP-20",
         "name": "Venus",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "xvs-venus",
+        "coingecko_id": "venus",
+        "nomics_id": "XVS",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -26106,7 +26105,7 @@
         "coin": "QBT-QRC20",
         "type": "QRC-20",
         "name": "Qbao",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "qbt-qbao",
         "coingecko_id": "qbao",
         "nomics_id": "QBT",
         "explorer_url": "https://explorer.qtum.org/",
@@ -28173,6 +28172,18 @@
         ],
         "electrum": [
             {
+                "url": "zombie.sirseven.me:10033",
+                "contact": [
+                    {
+                        "email": "igor@komodoplatform.com"
+                    },
+                    {
+                        "discord": "Sir Seven#7158"
+                    }
+                ],
+                "ws_url": "zombie.sirseven.me:30058"
+            },
+            {
                 "url": "zombie.sirseven.me:10133",
                 "contact": [
                     {
@@ -28183,6 +28194,19 @@
                     }
                 ],
                 "ws_url": "zombie.sirseven.me:30059"
+            },
+            {
+                "url": "zombie.sirseven.me:20033",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "igor@komodoplatform.com"
+                    },
+                    {
+                        "discord": "Sir Seven#7158"
+                    }
+                ],
+                "ws_url": "zombie.sirseven.me:30058"
             },
             {
                 "url": "zombie.sirseven.me:20133",
