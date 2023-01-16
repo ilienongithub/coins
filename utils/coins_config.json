@@ -1655,14 +1655,6 @@
                         "email": "alamshafil@pm.me"
                     }
                 ]
-            },
-            {
-                "url": "electrum-us.avn.network:50001",
-                "contact": [
-                    {
-                        "email": "alamshafil@pm.me"
-                    }
-                ]
             }
         ],
         "derivation_path": "m/44'/921'"
@@ -8011,6 +8003,18 @@
                 "ws_url": "electrum1.cipig.net:30060"
             },
             {
+                "url": "electrum2.cipig.net:10060",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30060"
+            },
+            {
                 "url": "electrum3.cipig.net:10060",
                 "contact": [
                     {
@@ -8024,6 +8028,18 @@
             },
             {
                 "url": "electrum1.cipig.net:20060",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20060",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -16181,9 +16197,6 @@
         "sign_message_prefix": "Monacoin Signed Message:\n",
         "electrum": [
             {
-                "url": "133.167.67.203:50001"
-            },
-            {
                 "url": "electrumx.tamami-foundation.org:50001"
             }
         ],
@@ -16210,9 +16223,6 @@
         "currently_enabled": false,
         "wallet_only": false,
         "electrum": [
-            {
-                "url": "133.167.67.203:50001"
-            },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
             }
@@ -22834,6 +22844,14 @@
         "wallet_only": false,
         "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
+            {
+                "url": "1.eu.thc.electrum.dexstats.info:10020",
+                "contact": [
+                    {
+                        "discord": "CHMEX#0686"
+                    }
+                ]
+            },
             {
                 "url": "2.eu.thc.electrum.dexstats.info:10020",
                 "contact": [
