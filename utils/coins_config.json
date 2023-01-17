@@ -8484,6 +8484,12 @@
         "wallet_only": false,
         "electrum": [
             {
+                "url": "electrum3.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrum3.egulden.org:50004"
+            },
+            {
                 "url": "holland.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -18856,8 +18862,16 @@
         "wallet_only": false,
         "electrum": [
             {
+                "url": "electrumx.live:50010",
+                "protocol": "TCP"
+            },
+            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "txserver.live:50002",
