@@ -1485,6 +1485,11 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "failover.aur.ewmcx.biz:50003"
+            },
+            {
+                "url": "lenoir.ecoincore.com:12343",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ],
         "derivation_path": "m/44'/85'"
@@ -5366,11 +5371,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "seattle.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "woolloomooloo.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -5426,11 +5426,6 @@
             },
             {
                 "url": "oakland.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "seattle.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
@@ -16203,6 +16198,9 @@
         "sign_message_prefix": "Monacoin Signed Message:\n",
         "electrum": [
             {
+                "url": "133.167.67.203:50001"
+            },
+            {
                 "url": "electrumx.tamami-foundation.org:50001"
             }
         ],
@@ -16229,6 +16227,9 @@
         "currently_enabled": false,
         "wallet_only": false,
         "electrum": [
+            {
+                "url": "133.167.67.203:50001"
+            },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
             }
@@ -25239,6 +25240,42 @@
         ],
         "asset": "GRMS",
         "derivation_path": "m/44'/141'"
+    },
+    "VPRM": {
+        "coin": "VPRM",
+        "type": "Smart Chain",
+        "name": "Vaporum",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "http://explorer.vaporumcoin.us/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "electrum": [
+            {
+                "url": "electrumx1.vaporumcoin.us:50001",
+                "contact": [
+                    {
+                        "github": "VaporumCoin"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.vaporumcoin.us:50001",
+                "contact": [
+                    {
+                        "github": "VaporumCoin"
+                    }
+                ]
+            }
+        ],
+        "asset": "VPRM"
     },
     "VTC": {
         "coin": "VTC",
