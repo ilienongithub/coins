@@ -11932,10 +11932,10 @@
                 "url": "electrum1.ilien.io:65011",
                 "contact": [
                     {
-                        "email": "support@chainmake.rs"
+                        "email": "admin@ilien.io"
                     },
                     {
-                        "discord": "siu - Chainmakers#3920"
+                        "discord": "https://discord.gg/HuwcACEf"
                     }
                 ],
                 "ws_url": "electrum1.ilien.io:30069"
@@ -11944,10 +11944,10 @@
                 "url": "electrum2.ilien.io:65011",
                 "contact": [
                     {
-                        "email": "support@chainmake.rs"
+                        "email": "admin@ilien.io.rs"
                     },
                     {
-                        "discord": "siu - Chainmakers#3920"
+                        "discord": "https://discord.gg/HuwcACEf"
                     }
                 ],
                 "ws_url": "electrum2.ilien.io:30069"
